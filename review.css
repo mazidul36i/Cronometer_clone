@@ -1,0 +1,129 @@
+#review>h1 {
+    margin-top:50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4e53;
+    font-size: 2.2em;
+    /* line-height: 1.25em; */
+}
+
+#head {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: normal;
+    color: #4f4e53;
+    font-size: 1.41em;
+    font-weight: 400;
+}
+
+#con1 {
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 500px);
+    gap: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+#con1>div>h4 {
+    width: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 350;
+    color: #ff763f;
+    font-size: 1.76em;
+    line-height: 1.5em;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#con1>div>p {
+    width: 90%;
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+#con1>div>img {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+
+#con2 {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(1, 400px);
+    gap: 50px;
+}
+
+#con2>div>img {
+    width: 45%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+#con2>div>h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4e53;
+    font-size: 1.41em;
+    text-align: center;
+}
+#con2>div>p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4e53;
+    font-size:25px;
+    line-height: 1.5em;
+}
+button{
+    width:280px;
+    height:50px;
+    border:1px solid green;
+    border-radius:5px;
+    background-color:white;
+    display: block;
+    margin: auto;
+    color: #ff763f;
+    font-size:20px;
+}
+button:hover{
+    background-color:#f8f8f8;
+}
+
+#apps {
+    width:100%;
+    height:400px;
+}
+#apps>h3{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4e53;
+    font-size: 2.2em;
+    font-weight:500;
+}
+#apps>h5{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4f4e53;
+    font-size: 1.41em;
+    /* line-height: 1.5em; */
+    font-weight: 400;
+}
+hr{
+    width:70%;
+    margin: auto;
+}
