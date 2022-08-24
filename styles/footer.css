@@ -1,0 +1,81 @@
+#footer {
+    background-color: var(--color-grey-1);
+    padding: 20px;
+}
+
+#footer > .social-media {
+    display: grid;
+    width: 320px;
+    gap: 15px;
+    margin: 30px auto;
+}
+.social-media > div {
+    display: flex;
+    gap: 20px;
+}
+.social-media > div:first-child {
+    width: 70%;
+    margin: auto;
+}
+.social-media img {
+    width: 100%;
+}
+
+#footer > .horizontal-line {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+#footer > .quick-links {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-content: space-between;
+}
+.quick-links img {
+    width: 240px;
+}
+.quick-links > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.quick-links a,
+.quick-links h4 {
+    color: white;
+    text-align: start;
+    text-decoration: none;
+    transition: color ease 0.3s;
+}
+.quick-links h4 {
+    font-size: 18px;
+}
+.quick-links a {
+    line-height: 45px;
+    font-size: 16px;
+}
+.quick-links a:hover {
+    color: var(--accent-color);
+}
+
+#footer > .copyright {
+    margin: 30px 0 20px;
+}
+.copyright p {
+    color: white;
+    line-height: 26px;
+}
+
+@media all and (max-width: 768px) {
+    #footer > .quick-links {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    #footer > .copyright p {
+        font-size: 18px;
+    }
+}
