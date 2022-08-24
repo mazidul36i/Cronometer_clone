@@ -3,3 +3,195 @@
     padding: 0;
     font-family: system-ui, sans-serif;
 }
+
+#discover{
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+    padding-top: 60px;
+    letter-spacing: 0.9px;
+}
+#discover p{
+    margin-top: 20px;
+}
+#discover h3,#develop h3{
+    font-size: 35.2px;
+    color: #4f4e53;
+}
+#discover>div:nth-child(2){
+    margin-top: 90px;
+}
+#discover>div:nth-child(1),#develop>div:nth-child(1){
+    width: 37%;
+}
+#discover>div:nth-child(1)>p, #develop>div:nth-child(1)>p{
+    font-size: 22.56px;
+    color: #4f4e53;
+    line-height: 35px;
+}
+#discover>div,#develop>div{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border: 0px solid red;
+}
+#discover>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+}
+#discover>div:nth-child(2)>div{
+    width: 30%;
+    
+}
+#discover>div:nth-child(2)>div>img{
+    width: 80px;
+}
+#discover>div:nth-child(2)>div>h5,#develop>div:nth-child(2)>div>h5{
+   font-size: 22px;
+   color: #4f4e53;
+}
+#discover>div:nth-child(2)>div:nth-child(1)>img,#develop>div:nth-child(2)>div:nth-child(5)>img{
+    width: 94px;
+}
+#discover>div:nth-child(2)>div>p,#develop>div:nth-child(2)>div>p{
+    font-size: 18px;
+    color: #404040;
+    line-height: 25px;
+    word-spacing: normal;
+}
+#develop{
+    text-align: center;
+    letter-spacing: 0.8px;
+    padding-top: 60px;
+}
+#develop>div:nth-child(2)>div>img{
+    width: 90px;
+}
+#develop>div:nth-child(2){
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+   justify-content: space-between;
+   border: 0px solid red;
+   padding-bottom: 80px;
+}
+#develop>div:nth-child(2)>div{
+    margin-top: 60px;
+}
+#develop>div:nth-child(2)>div>h5{
+    line-height: 34px;
+    margin-top: 8px;
+}
+#develop>div:nth-child(2)>div>p{
+    line-height: 27px;
+}
+#develop+div>div>button{
+    font-size: 22.16px;
+    width: 320px;
+    height: 63px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color: #FF763F;
+    border: 0px;
+    margin-top: 30px;
+    
+}
+#develop+div{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+#develop+div>div{
+    width: 42%;
+    margin: auto;
+}
+#develop+div>div{
+    padding-top: 40px;
+    border: 0px solid black;
+    padding-bottom: 60px;
+    text-align: center;
+    letter-spacing: 0.9px;
+    font-family: "Open Sans",sans-serif;
+    color: #4f4e53;
+}
+#develop+div>div>h3{
+    font-size: 28.50px;
+}
+@media only screen and (min-width:320px) and (max-width:500px) {
+    #discover h3,#develop h3{
+        letter-spacing: normal;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    #discover>div:nth-child(1)>p,#discover>div:nth-child(2)>div>p,#develop>div:nth-child(1)>p,#develop>div:nth-child(2)>div>p{
+        letter-spacing: normal;
+        line-height:25px;
+        margin-top: -3px;
+    }
+    #discover>div:nth-child(1){
+        width: 80%;
+    }
+    #discover>div:nth-child(2){
+        display: block;
+    }
+    #discover>div:nth-child(2)>div{
+        width: 90%;
+        margin-top: 40px;
+    }
+    #develop>div:nth-child(2){
+        display:block;
+       padding-bottom: 80px;
+    }
+    #develop+div{
+        width: 100%;
+    }
+    #develop+div>div{
+        width: 80%;
+        margin: auto;
+    }
+    #develop+div>div>h3{
+        font-size: 23.50px;
+    }
+    #develop+div>div>button{
+        font-size: 20.16px;
+        width: 280px;
+        height: 50px;  
+    }
+}
+@media only screen and (min-width:501px) and (max-width:800px){
+    #discover h3,#develop h3{
+        letter-spacing: normal;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    #discover>div:nth-child(1)>p,#discover>div:nth-child(2)>div>p,#develop>div:nth-child(1)>p,#develop>div:nth-child(2)>div>p{
+        letter-spacing: normal;
+        line-height:25px;
+        margin-top: 10px;
+    }
+    #discover>div:nth-child(2){
+        display: block;
+    }
+    #discover>div:nth-child(2)>div{
+        width: 90%;
+        margin-top: 40px;
+    }
+    #develop>div:nth-child(2){
+        display:grid;
+        grid-template-columns: repeat(2,48%);
+        justify-content: space-between;
+       padding-bottom: 80px;
+    }
+    #develop+div{
+        width: 100%;
+    }
+    #develop+div>div{
+        width: 70%;
+        margin: auto;
+    }
+    #develop+div>div>h3{
+        font-size: 25px;
+    }
+    #develop+div>div>button{
+        font-size: 20.16px;
+        width: 280px;
+        height: 50px;  
+    }
+}
