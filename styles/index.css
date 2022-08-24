@@ -1,0 +1,804 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+    --color-grey-1: #4f4e53;
+    --accent-color: rgb(255, 118, 63);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: var(--color-grey-1);
+}
+
+/* =====================
+ Global Style
+========================*/
+.container {
+    width: 100%;
+    padding: 60px 5%;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container > .title {
+    width: 95%;
+    font-size: 35px;
+    color: var(--color-grey-1);
+    text-align: center;
+}
+.container > h3 {
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+}
+.container > .title + h3 {
+    line-height: 30px;
+    font-weight: normal;
+    width: 55%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.a-button {
+    border: 1px var(--accent-color) solid;
+    border-radius: 5px;
+    padding: 10px 60px;
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 21px;
+    text-decoration: none;
+    box-shadow: lightgrey 0 0 6px;
+}
+.a-button:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+/* ============================= */
+
+html {
+    font-size: 62.5%;
+    /* 1rem=10px */
+    overflow-x: hidden;
+}
+
+.header {
+    padding: 1rem 10rem;
+    height: 10rem;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 4.8rem;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    margin-left: auto;
+    align-items: center;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: black;
+    transition: all 0.3s;
+}
+.navbar-link:hover,
+.navbar-link:active {
+    color: #ff763f;
+}
+
+.mobile-navbar-icon {
+    width: 4rem;
+    height: 4rem;
+    color: black;
+}
+.mobile-navbar-btn {
+    display: none;
+    /* background:transparent; */
+    cursor: pointer;
+}
+.mobile-navbar-icon[name="close-circle-outline"] {
+    display: none;
+}
+/* --------------- */
+.navbar-link-a:link,
+.navbar-link-a:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 540;
+    color: black;
+    transition: all 0.3s;
+    border: 3px solid #ff763f;
+    padding: 10px;
+    color: #ff763f;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.navbar-link-a:hover,
+.navbar-link-a:active {
+    color: green;
+}
+
+/*=======================================
+            Main section code
+=========================================*/
+/* ********* Unfinished ********* */
+.section-main {
+    padding: 9.6rem 0;
+    background-color: white;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-main img {
+    height: 600px;
+    margin-top: -30px;
+    /* margin-right: 200px; */
+    margin-left: 100px;
+}
+
+.headline {
+    width: 50%;
+    height: auto;
+    /* border: 1px solid red; */
+    font-size: 3.3em;
+    font-weight: 500;
+    line-height: 1.9em;
+    margin-right: -400px;
+    margin-bottom: 300px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.sub-headline {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: auto;
+    margin-top: 140px;
+    margin-right: 500px;
+    display: grid;
+}
+.sub-heading-content {
+    /* border: 1px solid black; */
+    width: 140%;
+    height: auto;
+    font-size: 3em;
+}
+
+.sub-heading-content h4 {
+    color: rgb(81, 74, 74);
+}
+.signup-btn {
+    /* border: 2px solid blue; */
+    display: inline-block;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 540;
+    /* color: black; */
+    transition: all 0.3s;
+    /* border: 3px solid #ff763f; */
+    padding: 4px;
+    color: white;
+    background-color: #ff763f;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 30px;
+    text-align: center;
+    width: 70%;
+}
+.signup-btn:hover,
+.signup-btn:active {
+    color: crimson;
+}
+
+.already-login {
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: 300;
+    margin-top: 2rem;
+    color: black;
+    font-weight: 200;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+.link-already-login {
+    display: inline-block;
+    font-weight: 700;
+    color: black;
+}
+.link-already-login:hover,
+.link-already-login:active {
+    color: blue;
+}
+
+/* ============================================
+            Discover Your Nutrition
+===============================================*/
+#discover {
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+    padding-top: 60px;
+    letter-spacing: 0.9px;
+}
+#discover p {
+    margin-top: 20px;
+}
+#discover h3,
+#develop h3 {
+    font-size: 35.2px;
+    color: #4f4e53;
+}
+#discover > div:nth-child(2) {
+    margin-top: 90px;
+}
+#discover > div:nth-child(1),
+#develop > div:nth-child(1) {
+    width: 37%;
+}
+#discover > div:nth-child(1) > p,
+#develop > div:nth-child(1) > p {
+    font-size: 22.56px;
+    color: #4f4e53;
+    line-height: 35px;
+}
+#discover > div,
+#develop > div {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border: 0px solid red;
+}
+#discover > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+#discover > div:nth-child(2) > div {
+    width: 30%;
+}
+#discover > div:nth-child(2) > div > img {
+    width: 80px;
+}
+#discover > div:nth-child(2) > div > h5,
+#develop > div:nth-child(2) > div > h5 {
+    font-size: 22px;
+    color: #4f4e53;
+}
+#discover > div:nth-child(2) > div:nth-child(1) > img,
+#develop > div:nth-child(2) > div:nth-child(5) > img {
+    width: 94px;
+}
+#discover > div:nth-child(2) > div > p,
+#develop > div:nth-child(2) > div > p {
+    font-size: 18px;
+    color: #404040;
+    line-height: 25px;
+    word-spacing: normal;
+}
+#develop {
+    text-align: center;
+    letter-spacing: 0.8px;
+    padding-top: 60px;
+}
+#develop > div:nth-child(2) > div > img {
+    width: 90px;
+}
+#develop > div:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    justify-content: space-between;
+    border: 0px solid red;
+    padding-bottom: 80px;
+}
+#develop > div:nth-child(2) > div {
+    margin-top: 60px;
+}
+#develop > div:nth-child(2) > div > h5 {
+    line-height: 34px;
+    margin-top: 8px;
+}
+#develop > div:nth-child(2) > div > p {
+    line-height: 27px;
+}
+#develop + div > div > button {
+    font-size: 22.16px;
+    width: 320px;
+    height: 63px;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #ff763f;
+    border: 0px;
+    margin-top: 30px;
+}
+#develop + div {
+    width: 100%;
+    background-color: #f8f8f8;
+}
+#develop + div > div {
+    width: 42%;
+    margin: auto;
+}
+#develop + div > div {
+    padding-top: 40px;
+    border: 0px solid black;
+    padding-bottom: 60px;
+    text-align: center;
+    letter-spacing: 0.9px;
+    font-family: "Open Sans", sans-serif;
+    color: #4f4e53;
+}
+#develop + div > div > h3 {
+    font-size: 28.5px;
+}
+
+/* ============================================
+            Cronometer Reviews
+===============================================*/
+#review > h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #4f4e53;
+    font-size: 2.2em;
+    /* line-height: 1.25em; */
+}
+
+#head {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: normal;
+    color: #4f4e53;
+    font-size: 1.41em;
+    font-weight: 400;
+}
+
+#con1 {
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 500px);
+    gap: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#con1 > div > h4 {
+    width: 80%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #ff763f;
+    font-size: 1.76em;
+    line-height: 1.5em;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+#con1 > div > p {
+    width: 90%;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    color: #404040;
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+#con1 > div > img {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+#con2 {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    background-color: #f8f8f8;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(1, 400px);
+    gap: 50px;
+}
+
+#con2 > div > img {
+    width: 45%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#con2 > div > h5 {
+    font-family: "Open Sans", sans-serif;
+    color: #4f4e53;
+    font-size: 1.41em;
+    text-align: center;
+}
+#con2 > div > p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #4f4e53;
+    font-size: 25px;
+    line-height: 1.5em;
+}
+button {
+    width: 280px;
+    height: 50px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    color: #ff763f;
+    font-size: 20px;
+}
+button:hover {
+    background-color: #f8f8f8;
+}
+
+#apps {
+    width: 100%;
+    height: 400px;
+}
+#apps > h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #4f4e53;
+    font-size: 2.2em;
+    font-weight: 500;
+}
+#apps > h5 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #4f4e53;
+    font-size: 1.41em;
+    /* line-height: 1.5em; */
+    font-weight: 400;
+}
+hr {
+    width: 70%;
+    margin: auto;
+}
+
+/* ======================================================== */
+/* .contanier{
+    
+    display: block;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    margin-top: 50px;
+   
+    background-color:  #f8f8f8;
+}
+#parent{
+   display: grid;
+ 
+   margin-left: 50px;
+  gap: 10px;
+   grid-template-columns: 1fr 1.75fr;
+}
+
+#textdiv{
+    display: flex;
+    flex-direction: column;
+}
+#layoutproimg{
+    display: flex;
+    justify-content: center;
+}
+#layoutproimg>img{
+  
+  width: 300px;
+  
+}
+#layoutText{
+    display: flex;
+    /* justify-content: center; /
+    align-items: center;
+    flex-direction: column;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+margin-top: -30px;
+}
+
+
+
+#subtitle{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    color: #4f4e53;
+    font-size: 25px;
+    line-height: 1.5em;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#proimg{
+    width: 231px;
+}
+#title{
+    text-align: center;
+    color: #4f4e53;
+    font-size: 35px;
+    line-height: 1.5em;
+    font-weight: 700;
+}
+#LearnButten{
+    color: #ff763f;
+    font-size: 20px;
+    margin-top: 30px;
+font-weight: 600;
+box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 15%);
+line-height:1.25em ;
+border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #fff;
+width: 300px;
+height: 50px;
+align-items: center;
+padding-top: 2%;
+   
+   text-align: center;
+    border: 1px solid green;
+}
+a{
+    text-decoration: none;
+} */
+/* =========================================================== */
+
+/* =====================
+ We are Canadian
+========================*/
+.team {
+    overflow: hidden;
+}
+.team > img {
+    width: 82%;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: lightgrey 0 0 4px;
+}
+
+.team > p {
+    width: 82%;
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.team > .a-button {
+    margin-top: 40px;
+}
+
+.team > hr {
+    color: var(--color-grey-1);
+    width: 120%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/*==========================================
+             Responsive code
+============================================*/
+@media (max-width: 980px) {
+    .mobile-navbar-btn {
+        display: block;
+        z-index: 999;
+        border: 3px;
+        color: black;
+    }
+    /* .mobile-navbar-icon[name="close-circle-outline"]{
+                display: none;
+            } */
+    .header {
+        position: relative;
+    }
+    .logo {
+        width: 40%;
+    }
+    .navbar {
+        width: 100%;
+        height: 100vh;
+        background-color: bisque;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    .navbar-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-navbar-icon {
+        width: 5rem;
+        height: 5rem;
+        color: black;
+        border: 0px solid;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    /* main section------------------------------------------------- */
+
+    /* main section ends--------------------------------------------------------------------------------- */
+    .active .navbar {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    .active
+        .mobile-navbar-btn
+        .mobile-navbar-icon[name="close-circle-outline"] {
+        display: block;
+    }
+
+    .active .mobile-navbar-btn .mobile-navbar-icon[name="menu-outline"] {
+        display: none;
+    }
+}
+
+/* Below 560px */
+
+@media (max-width: 35em) {
+    .header {
+        padding: 0 2.4rem;
+    }
+
+    .logo {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    #discover h3,
+    #develop h3 {
+        letter-spacing: normal;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    #discover > div:nth-child(1) > p,
+    #discover > div:nth-child(2) > div > p,
+    #develop > div:nth-child(1) > p,
+    #develop > div:nth-child(2) > div > p {
+        letter-spacing: normal;
+        line-height: 25px;
+        margin-top: -3px;
+    }
+    #discover > div:nth-child(1) {
+        width: 80%;
+    }
+    #discover > div:nth-child(2) {
+        display: block;
+    }
+    #discover > div:nth-child(2) > div {
+        width: 90%;
+        margin-top: 40px;
+    }
+    #develop > div:nth-child(2) {
+        display: block;
+        padding-bottom: 80px;
+    }
+    #develop + div {
+        width: 100%;
+    }
+    #develop + div > div {
+        width: 80%;
+        margin: auto;
+    }
+    #develop + div > div > h3 {
+        font-size: 23.5px;
+    }
+    #develop + div > div > button {
+        font-size: 20.16px;
+        width: 280px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 501px) and (max-width: 800px) {
+    #discover h3,
+    #develop h3 {
+        letter-spacing: normal;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    #discover > div:nth-child(1) > p,
+    #discover > div:nth-child(2) > div > p,
+    #develop > div:nth-child(1) > p,
+    #develop > div:nth-child(2) > div > p {
+        letter-spacing: normal;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    #discover > div:nth-child(2) {
+        display: block;
+    }
+    #discover > div:nth-child(2) > div {
+        width: 90%;
+        margin-top: 40px;
+    }
+    #develop > div:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(2, 48%);
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+    #develop + div {
+        width: 100%;
+    }
+    #develop + div > div {
+        width: 70%;
+        margin: auto;
+    }
+    #develop + div > div > h3 {
+        font-size: 25px;
+    }
+    #develop + div > div > button {
+        font-size: 20.16px;
+        width: 280px;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .container {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .container > h3,
+    .container > .title + h3 {
+        width: 100%;
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+
+    .team > img {
+        width: 92%;
+        margin: auto;
+    }
+    .team > p {
+        width: 100%;
+    }
+}
