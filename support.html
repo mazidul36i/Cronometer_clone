@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometer</title>
+    <link rel="icon" href="./assets/crono-icon-main-nav.svg">
+    <link rel="stylesheet" href="./styles/support.css">
+    <script src="https://kit.fontawesome.com/c0adbb8084.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Support Navbar Start -->
+    <nav id="navbar">
+        <img src="https://theme.zdassets.com/theme_assets/197219/111fe6921e8b22116b39eaa745ea08e38a718e0d.png"
+            alt="Logo">
+        <a href="#">Submit a request</a>
+    </nav>
+    <!-- Support Navbar End -->
+
+
+    <!-- Search Start -->
+    <div class="search-box">
+        <form class="searchbar" onsubmit="Search(event)">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="query" placeholder="Search">
+        </form>
+    </div>
+    <!-- Search End -->
+
+
+    <!-- Category Start -->
+    <section class="container category">
+        <div>
+            <h3>Web Version</h3>
+            <p>User Manual for Cronometer on Web</p>
+        </div>
+        <div>
+            <h3>Mobile App</h3>
+            <p>User manual for Cronometer Mobile App</p>
+        </div>
+        <div>
+            <h3>Professional Version</h3>
+            <p>User Manual for Cronometer Pro</p>
+        </div>
+        <div>
+            <h3>FAQ</h3>
+            <p>Cronometer Frequently Asked Questions</p>
+        </div>
+    </section>
+    <!-- Category End -->
+
+    <hr>
+
+    <!-- Recent Activity Start -->
+    <section class="container recent">
+        <h2 class="title">Recent Activity</h2>
+        <div class="recent_support_list">
+        </div>
+        <br>
+        <p id="load_more" onclick="LoadMore(event)">See more</p>
+    </section>
+    <!-- Recent Activity End -->
+
+
+    <!-- Footer Start -->
+    <section class="container footer">
+        <a href="./index.html">Cronometer</a>
+        <a href="#" id="powered_by">Powered by Team MJRDM</a>
+    </section>
+    <!-- Footer End -->
+
+
+    <!-- Floating Buttons Start -->
+    <div id="floating_support">
+        <i class="fa-regular fa-circle-question"></i>
+        <h3>Support</h3>
+    </div>
+    <!-- Floating Buttons End -->
+
+    <script src="./scripts/support.js"></script>
+</body>
+
+</html>
