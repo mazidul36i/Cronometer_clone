@@ -23,6 +23,10 @@ function LoadMore(e) {
     }, 1200);
 }
 
+function RequestOpen() {
+    window.location.href = "./request.html";
+}
+
 /* ====================== Article ========================= */
 class Article {
     constructor(title, feature, time, reply) {

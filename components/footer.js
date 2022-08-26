@@ -32,7 +32,7 @@ function footer() {
                 <h4>Cronometer</h4>
             </li>
             <li><a href="/">For Individuals</a></li>
-            <li><a href="#">For professionals</a></li>
+            <li><a href="./pro.html">For professionals</a></li>
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Terms</a></li>
         </ul>
@@ -41,11 +41,11 @@ function footer() {
             <li>
                 <h4>The Company</h4>
             </li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Crono Blog</a></li>
-            <li><a href="#">Crono Forums</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./blog.html">Crono Blog</a></li>
+            <li><a href="./forums.html">Crono Forums</a></li>
             <li><a href="#">Jobs</a></li>
-            <li><a href="#">Support</a></li>
+            <li><a href="./support.html">Support</a></li>
         </ul>
         <ul>
             <li>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronometer</title>
     <link rel="icon" href="./assets/crono-icon-main-nav.svg">
-    <link rel="stylesheet" href="./styles/support.css">
+    <link rel="stylesheet" href="./styles/request.css">
     <script src="https://kit.fontawesome.com/c0adbb8084.js" crossorigin="anonymous"></script>
 </head>
 
@@ -25,47 +25,38 @@
 
 
     <!-- Search Start -->
-    <div class="search-box">
+    <section class="container search-box">
+        <p><a href="./support.html">Cronometer</a> > Submit a request</p>
         <form class="searchbar" onsubmit="Search(event)">
             <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" id="query" placeholder="Search">
         </form>
-    </div>
+    </section>
     <!-- Search End -->
 
 
-    <!-- Category Start -->
-    <section class="container category">
-        <div>
-            <h3>Web Version</h3>
-            <p>User Manual for Cronometer on Web</p>
-        </div>
-        <div>
-            <h3>Mobile App</h3>
-            <p>User manual for Cronometer Mobile App</p>
-        </div>
-        <div>
-            <h3>Professional Version</h3>
-            <p>User Manual for Cronometer Pro</p>
-        </div>
-        <div>
-            <h3>FAQ</h3>
-            <p>Cronometer Frequently Asked Questions</p>
-        </div>
-    </section>
-    <!-- Category End -->
+    <!-- Form Start -->
+    <section class="container form">
+        <h1 class="title">Submit a request</h1>
+        <form id="request_form" onsubmit="SubmitRequest(event)">
+            <label for="email">Your email address<span>*</span></label>
+            <input type="email" id="email" required>
 
-    <hr>
+            <label for="subject">Subject<span>*</span></label>
+            <input type="text" id="subject" required>
 
-    <!-- Recent Activity Start -->
-    <section class="container recent">
-        <h2 class="title">Recent Activity</h2>
-        <div class="recent_support_list">
-        </div>
-        <br>
-        <p id="load_more" onclick="LoadMore(event)">See more</p>
+            <label for="desc">Description<span>*</span></label>
+            <textarea id="desc" required></textarea>
+            <p>Please enter the details of your request. A member of our support staff will respond as soon as possible.
+            </p>
+
+            <label for="attachment">Attachments</label>
+            <input type="file" id="attachment">
+
+            <input type="submit">
+        </form>
     </section>
-    <!-- Recent Activity End -->
+    <!-- Form End -->
 
 
     <!-- Footer Start -->
@@ -83,7 +74,7 @@
     </div>
     <!-- Floating Buttons End -->
 
-    <script src="./scripts/support.js"></script>
+    <script src="./scripts/request.js"></script>
 </body>
 
 </html>
