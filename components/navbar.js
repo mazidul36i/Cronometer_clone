@@ -1,5 +1,5 @@
 
-       function navbar(){
+     function navbar(){
           return `<a href="#">
         <img src="https://cdn1.cronometer.com/2021/landing/cronometer-logo.svg" alt="our main logo" class="logo">
     </a>
