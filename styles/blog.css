@@ -48,7 +48,7 @@
     color: #2d2d2d;
     margin-top: 30px;
 }
-#v_div>div:nth-child(1)>button{
+#v_div>div:nth-child(1) button{
     margin-top: 30px;
     padding: 16px 60px;
     font-size: 20px;
@@ -245,3 +245,192 @@
     border: 0px;
     background-color: #ffffff;
 }
+#trend,#updates{
+    padding: 150px 0px 0px 0px;
+}
+#trend>div:nth-child(1),#updates>div:nth-child(1){
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#trend>div:nth-child(1)>div,#updates>div:nth-child(1)>div{
+    width: 35%;
+    border: 0px solid red;
+    margin-right: 25px;
+}
+#trend>div:nth-child(1)>div:nth-child(2),#updates>div:nth-child(1)>div:nth-child(2){
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+#trend h2,#updates h2{
+    font-size: 45px;
+    color: #404040;
+}
+#trend>div:nth-child(1)>div>span,#updates>div:nth-child(1)>div>span{
+    font-size: 18px;
+    color: #ff763f;
+}
+#trend>div:nth-child(1)>div>a,#updates>div:nth-child(1)>div>a{
+    text-decoration: none;
+    color: #ff763f;
+    font-size: 15px;
+}
+.tempdiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.template{
+    width: 35%;
+    padding: 15px 15px 50px 15px ;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.template>img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.template>a{
+    text-decoration: none;
+    color: #404040;
+    font-size: 22px;
+    font-weight: bold;
+}
+.template>span{
+    font-size: 12px;
+    margin-top: 30px;
+}
+.template>p{
+    font-size: 16px;
+    color: #0c0c0c;
+    margin-top: 20px;
+}
+#know{
+    padding: 100px 0px 60px 0px;
+}
+#back{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url("https://cronometer.com/blog/wp-content/uploads/2021/07/gabin-vallet-J154nEkpzlQ-unsplash-scaled.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    width: 70%;
+    height: 400px;
+    margin-top: 20px;
+}
+#know>div>img{
+    width: 60%;
+    height: 40%;
+}
+#know>span{
+    color: #ff763f;
+    font-size: 22px;
+    margin-left: 15%;
+}
+#know>div{
+    width: 70%;
+    margin: auto;
+}
+#know>div>h3{
+    font-size: 39px;
+    color: #404040;
+    margin-top: 25px;
+}
+#know p{
+    font-size: 18px;
+    color: #2d2d2d;
+    margin-top: 20px;
+}
+#know button{
+    padding: 16px 60px;
+    font-size: 20px;
+    background-color: #ff763f;
+    color: #f8f8f8;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+}
+#meet_customer>div{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+#meet_customer>div>div{
+    margin-left: 20px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-bottom: 20px;
+}
+.temp{
+    width: 50%
+}
+.temp>img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.temp>a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #404040;
+    font-weight: bold;
+}
+#meet_customer>div:nth-child(2){
+    border: 0px solid red;
+    padding-top: 40px;
+    display: flex;
+    justify-content: end;
+    height: 50px;
+}
+#meet_customer>div:nth-child(2)>a{
+    color: #ff763f;
+    font-size: 18px;
+    text-decoration: none;
+}
+#footer{
+    display: flex;
+    margin: 100px 0px 50px 0px;
+    justify-content: center;
+}
+#footer>div{
+    width: 35%;
+    text-align: center;
+    margin-right: 30px;
+}
+#footer img{
+    width: 100%;
+}
+#footer h3{
+    font-size: 39px;
+    color: #5c5c5c;
+    margin-top: 100px;
+}
+#footer button{
+    font-size: 22px ;
+    color: #f8f8f8;
+    padding: 16px 60px ;
+    background-color: #ff763f;
+    border-radius: 5px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#footer a{
+    font-size: 20px;
+    color: #5c5c5c;
+}
+
+
+
