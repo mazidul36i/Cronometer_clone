@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+    --color-grey-1: #494950;
+    --accent-color: rgb(255, 118, 63);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* ==============================
+            Global Style
+=================================*/
+.container {
+    width: 100%;
+    padding: 60px 5%;
+    box-sizing: border-box;
+}
+
+/* ==============================
+            Nvbar
+=================================*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    align-items: center;
+    background-color: white;
+    gap: 10px;
+    box-shadow: rgb(206, 206, 206) 0 1px 2px;
+}
+#navbar img {
+    height: 38px;
+}
+#navbar a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 15px;
+}
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* ==============================
+            Search Box
+=================================*/
+.search-box {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.search-box p {
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    color: var(--color-grey-1);
+}
+.search-box p a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.search-box p a:hover {
+    text-decoration: underline;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    border: 1px rgb(211, 211, 211) solid;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: border 0.3s ease;
+}
+.searchbar i {
+    margin: 8px 5px 8px 15px;
+    color: rgb(138, 138, 138);
+    font-size: 16px;
+}
+.searchbar > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 14px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: var(--color-grey-1);
+}
+
+/* ==============================
+            Form
+=================================*/
+.form {
+    padding-top: 30px;
+}
+.form > h1 {
+    color: var(--color-grey-1);
+    font-weight: 400;
+    font-size: 30px;
+    color: #303033;
+}
+.form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+    width: 650px;
+    max-width: 100%;
+}
+
+#request_form > label {
+    margin-top: 20px;
+    font-size: 14px;
+}
+#request_form > label > span {
+    color: red;
+    margin-left: 2px;
+}
+
+#request_form > input,
+#request_form > textarea {
+    border-radius: 4px;
+    outline: none;
+    border: 1px rgb(214, 214, 214) solid;
+    padding: 10px 13px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#request_form > textarea {
+    resize: vertical;
+    min-height: 100px;
+    height: 130px;
+}
+#request_form > input:focus,
+#request_form > textarea:focus {
+    border-color: var(--accent-color);
+}
+#request_form > p {
+    font-size: 12px;
+    color: #494950;
+}
+
+#request_form > input[type="submit"] {
+    margin-top: 80px;
+    width: fit-content;
+    padding: 10px 80px;
+    color: white;
+    background-color: var(--accent-color);
+    border: none;
+    cursor: pointer;
+}
+#request_form > input[type="submit"]:hover {
+    background-color: rgb(243, 76, 10);
+}
+/* ==============================
+            Footer
+=================================*/
+.footer {
+    display: grid;
+    gap: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(206, 206, 206);
+}
+.footer > a {
+    font-size: 15px;
+    color: var(--color-grey-1);
+    text-decoration: none;
+}
+.footer > a:last-child {
+    margin-left: auto;
+    margin-right: -40px;
+    text-decoration: underline;
+}
+.footer > a:hover {
+    text-decoration: underline;
+}
+
+/* ==============================
+        Floating Buttons
+=================================*/
+#floating_support {
+    position: fixed;
+    display: flex;
+    left: 20px;
+    bottom: 15px;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 50px;
+    padding: 13px 14px;
+    align-items: center;
+    gap: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+#floating_support > i {
+    font-size: 18px;
+}
+
+#floating_support > h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ==============================
+            Responsive
+=================================*/
+@media all and (max-width: 1200px) {
+    .footer > a:last-child {
+        margin-right: -20px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .search-box {
+        flex-direction: column;
+    }
+    .searchbar {
+        width: 100%;
+    }
+    #request_form > input[type="submit"] {
+        width: 100%;
+    }
+    #floating_support h3 {
+        display: none;
+    }
+}

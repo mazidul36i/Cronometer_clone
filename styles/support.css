@@ -104,6 +104,7 @@ hr {
     align-items: center;
     color: var(--accent-color);
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 .category > div:hover {
     background-color: var(--accent-color);
@@ -150,6 +151,9 @@ hr {
     color: rgb(31, 31, 31);
     font-weight: 500;
 }
+.recent_support_list > div > .title:hover {
+    text-decoration: underline;
+}
 .recent_support_list > div > .details {
     display: flex;
     font-weight: 400;
@@ -157,6 +161,9 @@ hr {
     margin-top: 5px;
     gap: 10px;
     justify-content: space-between;
+}
+.recent_support_list > div > .details > span:first-child:hover {
+    text-decoration: underline;
 }
 .recent_support_list > div > .details i {
     color: var(--accent-color);
