@@ -8,7 +8,7 @@ class navbar {
             <ul class="navbar-list">
                 <li>
                     <div class="nav-product">
-                        <a>Products</a>
+                        <a href="./pro.html">Products</a>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
                 </li>
@@ -54,4 +54,4 @@ class navbar {
     }
 }
 
-export default new navbar;
+export default new navbar();
