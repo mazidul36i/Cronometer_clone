@@ -320,7 +320,11 @@ html {
 #develop > div:nth-child(2) > div > p {
     line-height: 27px;
 }
-#develop + div > div > button {
+#develop+div a{
+    text-decoration: none;
+}
+#develop + div > div button {
+    
     font-size: 22.16px;
     width: 320px;
     height: 63px;
