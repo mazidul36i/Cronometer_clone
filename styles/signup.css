@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+#nav{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#nav>img{
+    height: 65%;
+}
+#user_datails,#details{
+    width: 40%;
+    margin: auto;
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#user_datails>input{
+    width: 85%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    margin-left: 5.5%;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #333333;
+}
+#details{
+    display: grid;
+    justify-content: center;
+}
+#details>h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+#details>div{
+    margin-top: 10px;
+}
+#details span{
+    font-size: 13px;
+    font-weight: bold;
+}
+#cm{
+    width: 50px;
+}
+#year{
+    width: 70px;
+}
+#wt{
+    width: 60px;
+}
+#submit{
+    width: 40%;
+    padding: 13px 13px;
+    margin-left: 30%;
+    font-size: 18px;
+    background-color: #67ac5b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
