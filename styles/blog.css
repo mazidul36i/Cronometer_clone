@@ -432,5 +432,52 @@
     color: #5c5c5c;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    #v_div{
+        display: block;
+    }
+    #v_div>div{
+        margin-bottom: 70px;
+    }
+    #tips>div{
+        display: block;
+    }
+    #eat{
+        display: block;
+    }
+    #eat>div{
+        width: 100%;
+    }
+    #eat>div:nth-child(2){
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .tempdiv{
+        display: block;
+    }
+    .tempdiv>div{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+    #meet_customer>div{
+        display: block;
+    }
+    .temp{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    #footer{
+        display: block;
+    }
+    #footer>div{
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+}
+
 
 
