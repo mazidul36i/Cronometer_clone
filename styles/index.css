@@ -63,6 +63,7 @@
             Main section code
 =========================================*/
 .home {
+    padding: 5px 5%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 20px;
@@ -216,11 +217,10 @@
 #develop > div:nth-child(2) > div > p {
     line-height: 27px;
 }
-#develop+div a{
+#develop + div a {
     text-decoration: none;
 }
 #develop + div > div button {
-    
     font-size: 22.16px;
     width: 320px;
     height: 63px;
@@ -566,7 +566,7 @@ hr {
         height: 40px;
     }
 
-    #apps  img {
+    #apps img {
         width: 90%;
     }
 
@@ -584,7 +584,7 @@ hr {
         flex-direction: column;
         padding: 60px 30px;
     }
-    #con2 >img {
+    #con2 > img {
         max-width: 80%;
         width: 300px;
     }
