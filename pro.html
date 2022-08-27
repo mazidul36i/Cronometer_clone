@@ -8,164 +8,8 @@
     <title>Cronometer Pro</title>
     <link rel="stylesheet" href="./styles/navbar.css">
     <!-- <link rel="stylesheet" href="./styles/index.css"> -->
-    <style>
-        #con1 {
-            width: 75%;
-            height: 500px;
-            margin: auto;
-            margin-top: 40px;
-            border-radius: 8px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(1, 500px);
-            gap: 50px;
-        }
-
-        h1 {
-            /* text-align: center; */
-            font-family: 'Open Sans', sans-serif;
-            color: #4f4e53;
-            font-size: 42px;
-            line-height: 48px;
-        }
-
-        h3 {
-            /* text-align: center; */
-            font-family: 'Open Sans', sans-serif;
-            color: #4f4e53;
-            font-size: 30px;
-            font-weight: 200;
-            line-height: 1.5em;
-        }
-
-        button {
-            width: 280px;
-            height: 60px;
-            color: white;
-            background-color: #5da151;
-            border-radius: 5px;
-            border: 0px;
-            font-size: 22px;
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        button:hover {
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        }
-
-        #con1>div>img {
-            width: 75%;
-            display: block;
-            margin: auto;
-            margin-top: 50px;
-        }
-
-        #con2 {
-            margin: auto;
-            margin-top: 100px;
-            width: 75%;
-            height: 400px;
-        }
-
-        #inner1 {
-            width: 100%;
-            /* border:1px solid; */
-            height: 250px;
-            margin-top: 70px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(1, 250px);
-            gap: 20px;
-        }
-
-        #inner1>div>h4 {
-            text-align: center;
-            margin-top: 15px;
-            font-size: 25px;
-            color: #4f4e53;
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        #inner1>div>h6 {
-            text-align: center;
-            margin: auto;
-            margin-top: -20px;
-            font-weight: 400;
-            font-size: 20px;
-            color: #4f4e53;
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        #inner1>div>img {
-            display: block;
-            margin: auto;
-            width: 30%;
-        }
-
-        #con3 {
-            margin-top: 100px;
-            width: 100%;
-            height: 400px;
-            border: 1px solid white;
-            background-color: #f8f8f8;
-        }
-
-        #con3>h1 {
-            text-align: center;
-            font-family: 'Open Sans', sans-serif;
-            color: #4f4e53;
-            font-size: 42px;
-            margin-top: 100px;
-        }
-
-        #con3>h3 {
-            width: 40%;
-            margin: auto;
-            text-align: center;
-            font-family: 'Open Sans', sans-serif;
-            color: #4f4e53;
-            font-size: 27px;
-            font-weight: 400;
-            line-height: 40px;
-        }
-
-        #inner2{
-            width: 100%;
-            height: 400px;
-            margin-top: 70px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(1, 100%);
-            gap: 20px;
-        }
-
-        #inner2>div>img{
-            width:70%;
-            display: block;
-            margin: auto;
-            margin-top:100px;
-            margin-left:150px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-            /* border: ; */
-        }
-        #inner2>div+div>h4{
-            font-size:28px;
-            color: #4f4e53;
-            font-family: 'Open Sans', sans-serif;
-            line-height:0px;
-
-        }
-        #inner2>div+div>h6{
-            font-size:20px;
-            width:80%;
-            font-family: 'Open Sans', sans-serif;
-            color: #4f4e53;
-            font-weight:400;
-            line-height:30px;
-            margin-top: -10px;
-        }
-        
-    </style>
+     <link rel="stylesheet" href="./styles/pro.css">
+     <link rel="stylesheet" href="./styles/footer.css">
 </head>
 
 <body>
@@ -174,9 +18,9 @@
     </header>
     <div id="con1">
         <div>
-            <h1>Nutrition tracking software for health professionals</h1>
-            <h3>Sophisticated data for you, simplified diet tracking for your clients.</h3>
-            <h3 style="font-weight:600;color:#5da151;">Free 30-Day Trial</h3>
+            <h1 class="h1-1">Nutrition tracking software for health professionals</h1>
+            <h3 class="" >Sophisticated data for you, simplified diet tracking for your clients.</h3>
+            <h3 class="" style="font-weight:600;color:#5da151;">Free 30-Day Trial</h3>
             <button>Sign Up</button>
         </div>
         <div>
@@ -207,8 +51,8 @@
     </div>
 
     <div id="con3">
-        <h1>Eliminate Paper Food Diaries</h1>
-        <h3>Used by nutritionists, dietitians, research teams, schools, and hospitals worldwide.</h3>
+        <h1 class="h1-2">Eliminate Paper Food Diaries</h1>
+        <h3 class="h3-2">Used by nutritionists, dietitians, research teams, schools, and hospitals worldwide.</h3>
         <button style="display:block;margin: auto;margin-top:50px;">Sign Up</button>
     </div>
 
@@ -218,17 +62,79 @@
         <h3 style="text-align:center;">Deliver powerful results.</h3>
         <div id="inner2">
             <div>
-                 <img src="https://cdn1.cronometer.com/2021/landing/cronometer-client-graphic-1.svg" alt="">
+                 <img src="https://cdn1.cronometer.com/2021/landing/cronometer-client-graphic-1.svg" alt="" class="bimg">
             </div>
             <div>
-                <h4>Easy to set up and manage</h4>
-                <h6>Organize clients into groups; view and edit your clients' nutrition targets, settings and data.</h6>
-                <h4>Share foods and recipes</h4>
-                <h6>Easily share custom foods and recipes for your clients to use.</h6>
-                <h4>Track your clients' progress</h4>
-                <h6>Educate, enable and empower your clients to live a healthy lifestyle.</h6>
+                <h4 class="h4">Easy to set up and manage</h4>
+                <h6 class="h6">Organize clients into groups; view and edit your clients' nutrition targets, settings and data.</h6>
+                <h4 class="h4">Share foods and recipes</h4>
+                <h6 class="h6">Easily share custom foods and recipes for your clients to use.</h6>
+                <h4 class="h4">Track your clients' progress</h4>
+                <h6 class="h6">Educate, enable and empower your clients to live a healthy lifestyle.</h6>
             </div>
         </div>
+    </div>
+
+    <div id="con5">
+           <div>
+            <h4 class="h4">In-app client messaging</h4>
+            <h6 class="h6">Easily connect with your clients with our secure, in-app client messaging.</h6>
+            <h4 class="h4">Customize the client view</h4>
+            <h6 class="h6">Choose what the client can view as they log their nutrition with the Cronometer app.</h6>
+            <h4 class="h4">Grow your practice</h4>
+            <h6 class="h6">Feature your business in our professional directory and get discovered by other Cronometer app users.</h6>
+        </div>
+        <div>
+            <img src="https://cdn1.cronometer.com/2021/landing/cronometer-client-graphic-2.svg" alt="" class="bimg2">
+        </div> 
+    </div>
+    <hr style="width:75%;margin-top:100px;">
+    
+    <div id="con6" style="margin-top:150px;">
+        <h1 class="h1-3">Food Diary App for Clients</h1>
+        <h3 class="h3-3">Clients can track their food, exercise and health metrics on the go.</h3>
+        <div id="inner3">
+            <div>
+                <img src="https://cdn1.cronometer.com/2021/landing/cronometer-hero-graphic.svg" alt="" class="in3img">
+            </div>
+            <div>
+                    <h4 class="h4">Accurate Nutrition Data</h4>
+                    <h6 class="h6">With our curated database you can be confident your clients are only logging accurate info.</h6>
+                    <h4 class="h4">Syncs with Apps & Devices</h4>
+                    <h6 class="h6">Clients can sync Apple Health, Samsung Health, Google Fit, FitBit, Garmin, and more.</h6>
+                    <h4 class="h4">Premium Features</h4>
+                    <h6 class="h6">Your clients will have access to the premium Gold version of the Cronometer app.</h6>
+                    <h4 class="h4">Priority Support</h4>
+                    <h6 class="h6">Your clients will have priority support status with our customer service team.</h6>
+            </div>
+        </div>
+    </div>
+
+    <div id="con7">
+        <h1 class="h1-3">Cronometer Pro Reviews</h1>
+        <h3 class="h3-3">Client nutrition tracking software for any size company.</h3>
+        <div id="inner4">
+            <div>
+                <img src="https://cdn1.cronometer.com/2021/landing/Stanford_Medicine_V-web.png" alt="" class="in4img">
+            </div>
+            <div><img src="https://cdn1.cronometer.com/2021/landing/quote-left.png" alt="" class="colm">
+                <h6 class="h6 h6a">Cronometer has been a great tool for our dietary intervention studies. We can adjust the targets for any nutrient for each person, we can review their logs in real time to make timely recommendations, can keep other data (such as blood sugars or sleep time) in the same platform, and the export of data is easy. We also really like the charts and reports! On the participant’s side, entry of foods is easy with many shortcuts available and a robust food database with accurate nutrient information.</h6>
+                <h6 class="h6" style="margin:10px 0px 20px 30px;font-size:25px;">Stanford University</h6>
+                <h6 class="h6" style="margin-left:30px;">Nutrition Studies Group</h6>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="con8">
+           <h1 class="h1-3">Ready to Get Started?</h1>
+           <h3 class="h3-3">Sign up today</h3>
+           <button class="b2">Sign Up</button>
+           <h6 class="h6 h6b" style="text-align:center;">Not sure if Cronometer Pro is right for you?</h6>
+           <h6><a href="" class="h6 h6b cont" >Contact Us</a></h6>
+    </div>
+    <div id="foo">
+
     </div>
 </body>
 
@@ -238,3 +144,23 @@
     let container = document.querySelector("#header");
     container.innerHTML = navbar
 </script> -->
+<script type="module">
+   import footer from "./components/footer.js"
+   let footers = document.querySelector("#foo");
+   footers.innerHTML = footer
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
