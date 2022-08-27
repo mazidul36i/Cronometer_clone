@@ -1,85 +1,83 @@
-  
- #footer_container{
-  background-color:  #4f4e53;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
- }
-  #privacy_title>p>span{
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+#footer_container {
+    background-color: #4f4e53;
+}
+#privacy_title > p > span {
     font-weight: bold;
     color: black;
-
-  }
-  h2{
+}
+h2 {
     padding-bottom: 0px;
     margin-bottom: -20px;
-  }
-  #titlewith_li>p{
+}
+#titlewith_li > p {
     font-size: 20px;
-  }
-    #titlewith_li>p>span{
+}
+#titlewith_li > p > span {
     font-weight: bold;
     color: black;
-  }
-  #Topic_pointer{
+}
+#Topic_pointer {
     padding-top: 1.5%;
     color: #262626;
     font-size: 1.125em;
     line-height: 1.5em;
+}
 
-  }
- 
-  #privacy>title>ul{
+#privacy > title > ul {
     padding-left: 4%;
-    font-family: 'Open Sans', sans-serif;
-   
+    font-family: "Open Sans", sans-serif;
+
     padding-top: 0px;
     padding-bottom: 0px;
-  }
+}
 
-  #privacy_title>p{
+#privacy_title > p {
     margin-bottom: 1px;
-  }
-#privacy_title{
+}
+#privacy_title {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     word-spacing: 2px;
-   color: #404040;
-   line-height: 1.8em;
+    color: #404040;
+    line-height: 1.8em;
     justify-content: space-between;
 }
-#privacy_title>p{
+#privacy_title > p {
     font-size: 20px;
-}  
-#button_Nextpage>div>a>button:hover {
-  background-color: rgb(239, 239, 224);
 }
-#button_Nextpage>div>a>button{
-  justify-content: center;
+#button_Nextpage > div > a > button:hover {
+    background-color: rgb(239, 239, 224);
+}
+#button_Nextpage > div > a > button {
+    justify-content: center;
     margin-left: 45%;
     width: 250px;
     font-weight: 600;
     font-size: 1.41em;
     height: 50px;
-  text-align: center;
-  align-items: center;
-  border:1px solid #ff763f;
-  box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 15%);
-  color: #ff763f;
-  font-weight: 600;
-  border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #ff763f;
+    box-shadow: 1px 1px 10px 0 rgb(0 0 0 / 15%);
+    color: #ff763f;
+    font-weight: 600;
+    border-radius: 5px;
 }
-#button_Nextpage{
-justify-content: center;
-align-items: center;
-padding-bottom: 40px;
-
+#button_Nextpage {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
 }
-#conatiner{
+#conatiner {
     width: 90%;
     margin: auto;
     justify-content: center;
     /* background-color: red; */
-
 }
-
-

@@ -33,8 +33,8 @@ function footer() {
             </li>
             <li><a href="/">For Individuals</a></li>
             <li><a href="./pro.html">For professionals</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
+            <li><a href="./privacy&policy.html">Privacy</a></li>
+            <li><a href="./terms.html">Terms</a></li>
         </ul>
 
         <ul>

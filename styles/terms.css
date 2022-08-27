@@ -5,29 +5,23 @@
     --accent-color: rgb(255, 118, 63);
 }
 
-
-
-
-
-.terms_container{
+.terms_container {
     width: 85%;
-    height: 100vh;
     margin: auto;
 }
 
-li{
+li {
     font-weight: bolder;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
-.terms_makeitbold{
+.terms_makeitbold {
     font-weight: bolder;
     color: rgb(86, 83, 83);
-    
 }
-p{
-    font-family: 'Open Sans', sans-serif;
+p {
+    font-family: "Open Sans", sans-serif;
     color: rgb(64, 61, 61);
 }
-#terms_intro{
+#terms_intro {
     font-style: italic;
 }

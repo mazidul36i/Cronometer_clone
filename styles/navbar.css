@@ -32,6 +32,7 @@
     text-decoration: none;
     font-size: 18px;
     transition: color 0.2s ease;
+    color: #4f4e53;
 }
 #navbar ul a:hover,
 #navbar ul i:hover {
@@ -40,14 +41,15 @@
 #navbar ul i {
     font-size: 17px;
     margin-left: 4px;
+    color: #4f4e53;
 }
 
 #navbar .navbar-link-b {
     width: max-content;
-    border: 1px var(--accent-color) solid;
+    border: 1px rgb(255, 118, 63) solid;
     border-radius: 8px;
     padding: 7px 30px 7px;
-    color: var(--accent-color);
+    color: rgb(255, 118, 63);
     font-weight: 600;
     font-size: 18px;
     margin-left: 20px;

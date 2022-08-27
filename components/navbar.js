@@ -16,29 +16,30 @@ class navbar {
                 <li><a href="./blog.html" class="navbar-link">Blog</a></li>
                 <li><a href="./forums.html" class="navbar-link">Forums</a></li>
                 <li><a href="./about.html" class="navbar-link">About</a></li>
-                <li><a href="#" class="navbar-link-b">Log In</a></li>
+                <li><a href="./login.html" class="navbar-link-b">Log In</a></li>
             </ul>
         </nav>
-        <i class="mobile-navbar-btn fa-solid fa-bars"></i>
+        <i id="menu_button" class="mobile-navbar-btn fa-solid fa-bars"></i>
     </header>`;
         this.func = `const nav_container = document.querySelector("#navbar");
         let t;
-        // const toggleNavbar = () => {
-        //     if (t) {
-        //         clearTimeout(t);
-        //         t = null;
-        //     }
+        const toggleNavbar = () => {
+            if (t) {
+                clearTimeout(t);
+                nav_container.classList.remove("active");
+            }
         
-        //     // if (!nav_container.classList.contains("collapse")) {
-        //     //     t = setTimeout(() => {
-        //     //         nav_container.classList.toggle("collapse");
-        //     //     }, 600);
-        //     // } else {
-        //     //     nav_container.classList.toggle("collapse");
-        //     // }
-        // };
+            nav_container.classList.toggle("collapse");
+            if (nav_container.classList.contains("active")) {
+                t = setTimeout(() => {
+                    nav_container.classList.remove("active");
+                }, 600);
+            } else {
+                nav_container.classList.add("active");
+            }
+        };
         document
-            .querySelector(".mobile-navbar-btn")
+            .querySelector("#menu_button")
             .addEventListener("click", () => toggleNavbar());`;
     }
 
@@ -49,8 +50,7 @@ class navbar {
     getFunction(location) {
         let scriptTag = document.createElement("script");
         scriptTag.innerHTML = this.func;
-        console.log(scriptTag)
-        // location.appendChild(scriptTag);
+        location.appendChild(scriptTag);
     }
 }
 export default new navbar();

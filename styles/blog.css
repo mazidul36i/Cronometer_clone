@@ -1,30 +1,31 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;   
+    font-family: "Open Sans", sans-serif;
 }
-#top{
+#top {
     text-align: center;
     background-color: transparent;
-    background-image: linear-gradient(80deg,#ff763f 0%,#ffb56b 100%);
-    padding:80px 0px 140px;
+    background-image: linear-gradient(80deg, #ff763f 0%, #ffb56b 100%);
+    padding: 80px 0px 140px;
 }
-#top>h2{
+#top > h2 {
     font-size: 49px;
     color: #ffffff;
-
 }
-#top>h5{
+#top > h5 {
     font-size: 25px;
     color: #ffffff;
     margin-top: 30px;
 }
-#v_div{
+#v_div {
     display: flex;
     justify-content: center;
     padding-bottom: 130px;
 }
-#v_div>div:nth-child(1){
+#v_div > div:nth-child(1) {
     border: 0px solid red;
     width: 660px;
     padding: 15px 15px 0px 15px;
@@ -34,21 +35,21 @@
     background-color: white;
     border-radius: 10px;
 }
-#v_div>div>iframe{
+#v_div > div > iframe {
     width: 660px;
     height: 400px;
 }
-#v_div>div>h3{
+#v_div > div > h3 {
     font-size: 39px;
     color: #404040;
     margin-top: 40px;
 }
-#v_div>div>p{
+#v_div > div > p {
     font-size: 18px;
     color: #2d2d2d;
     margin-top: 30px;
 }
-#v_div>div:nth-child(1) button{
+#v_div > div:nth-child(1) button {
     margin-top: 30px;
     padding: 16px 60px;
     font-size: 20px;
@@ -57,7 +58,7 @@
     border: 0px;
     border-radius: 6px;
 }
-#v_div>div:nth-child(2){
+#v_div > div:nth-child(2) {
     width: 370px;
     border: 0px solid red;
     margin-left: 40px;
@@ -67,32 +68,32 @@
     background-color: white;
     border-radius: 10px;
 }
-#v_div>div:nth-child(2)>div{
+#v_div > div:nth-child(2) > div {
     display: flex;
 }
-#v_div>div:nth-child(2)>div>div{
+#v_div > div:nth-child(2) > div > div {
     margin: 30px 15px 30px 15px;
 }
-#v_div>div:nth-child(2)>div>div>img{
+#v_div > div:nth-child(2) > div > div > img {
     width: 120px;
     height: 120px;
     border-radius: 10px;
     object-fit: cover;
 }
-#v_div>div:nth-child(2)>div>div:nth-child(2){
+#v_div > div:nth-child(2) > div > div:nth-child(2) {
     width: 180px;
 }
-#v_div>div:nth-child(2)>div>div>a{
+#v_div > div:nth-child(2) > div > div > a {
     color: #404040;
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
 }
-#v_div>div:nth-child(2)>div>div>p{
+#v_div > div:nth-child(2) > div > div > p {
     font-size: 12px;
     color: grey;
 }
-#explore{
+#explore {
     background-color: white;
     height: 40px;
     width: 150px;
@@ -100,100 +101,100 @@
     color: #ff763f;
     text-decoration: none;
 }
-#exp{
+#exp {
     width: 100%;
     margin-top: 35px;
     border: 0px solid yellowgreen;
     display: flex;
     justify-content: flex-end;
 }
-#v_div>div:nth-child(2)>p{
+#v_div > div:nth-child(2) > p {
     color: #ff763f;
     margin-top: 20px;
     margin-left: 20px;
-    font-size: 18px;     
+    font-size: 18px;
 }
-#search{
-    background-color: #f8f8f8 ;
+#search {
+    background-color: #f8f8f8;
     margin: auto;
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
 }
-#search>h2{
-    font-size: 49px ;
+#search > h2 {
+    font-size: 49px;
     color: #404040;
 }
-#search>div{
+#search > div {
     margin-top: 65px;
 }
-#search a{
+#search a {
     text-decoration: none;
     color: #ff763f;
     font-size: 21px;
     padding: 20px 40px;
 }
-#search input{
+#search input {
     width: 65%;
     height: 65px;
     font-size: 20px;
     padding-left: 20px;
     border: 0px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    
 }
-#search button{
+#search button {
     height: 54px;
     border: 0px;
     align-items: center;
     justify-content: center;
-   
 }
-#search button>img{
+#search button > img {
     height: 125%;
     margin-top: -2px;
 }
-#search>div:nth-child(3){
+#search > div:nth-child(3) {
     border: 0px solid red;
     height: 50px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
 }
-#tips{
+#tips {
     padding-top: 150px;
     padding-bottom: 50px;
 }
-#tips>div:nth-child(1){
+#tips > div:nth-child(1) {
     display: grid;
     grid-template-columns: 43% 27%;
     justify-content: center;
 }
-#tips>div:nth-child(1)>div,#tips>div:nth-child(2)>div{
+#tips > div:nth-child(1) > div,
+#tips > div:nth-child(2) > div {
     margin-left: 60px;
 }
-#tips>div>div{
+#tips > div > div {
     border: 0px solid red;
 }
-#tips img,#tips img{
+#tips img,
+#tips img {
     width: 100%;
 }
-#tips h2{
+#tips h2 {
     font-size: 50px;
     margin-top: 20px;
     color: #404040;
 }
-#tips p{
+#tips p {
     margin-top: 20px;
     font-size: 18px;
     color: #404040;
     word-spacing: 1px;
 }
-#tips span{
+#tips span {
     font-size: 18px;
     color: #ff763f;
 }
-#tips button{
+#tips button {
     width: 250px;
     margin-top: 30px;
     padding: 16px 60px;
@@ -203,41 +204,41 @@
     border: 0px;
     border-radius: 6px;
 }
-#tips>div:nth-child(2){
+#tips > div:nth-child(2) {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 35% 32%;
     justify-content: center;
 }
-#eat{
+#eat {
     display: flex;
-    background-image: linear-gradient(80deg,#ff763f 0%,#ffb56b 100%);
-    padding:80px 0px 140px;
+    background-image: linear-gradient(80deg, #ff763f 0%, #ffb56b 100%);
+    padding: 80px 0px 140px;
     padding-top: 60px;
     padding-bottom: 60px;
     justify-content: center;
 }
-#eat>div{
+#eat > div {
     width: 30%;
     border: 0px solid red;
     margin-left: 50px;
 }
-#eat h3{
+#eat h3 {
     font-size: 40px;
     color: #ffffff;
 }
-#eat p{
+#eat p {
     font-size: 25px;
     color: #ffffff;
     margin-top: 30px;
     letter-spacing: 0.9px;
 }
-#eat>div:nth-child(2){
+#eat > div:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: end;
 }
-#eat button{
+#eat button {
     width: 300px;
     height: 50px;
     font-size: 18px;
@@ -246,76 +247,83 @@
     border: 0px;
     background-color: #ffffff;
 }
-#trend,#updates{
+#trend,
+#updates {
     padding: 150px 0px 0px 0px;
 }
-#trend>div:nth-child(1),#updates>div:nth-child(1){
+#trend > div:nth-child(1),
+#updates > div:nth-child(1) {
     display: flex;
     width: 100%;
     justify-content: center;
 }
-#trend>div:nth-child(1)>div,#updates>div:nth-child(1)>div{
+#trend > div:nth-child(1) > div,
+#updates > div:nth-child(1) > div {
     width: 35%;
     border: 0px solid red;
     margin-right: 25px;
 }
-#trend>div:nth-child(1)>div:nth-child(2),#updates>div:nth-child(1)>div:nth-child(2){
+#trend > div:nth-child(1) > div:nth-child(2),
+#updates > div:nth-child(1) > div:nth-child(2) {
     display: flex;
     justify-content: end;
     align-items: flex-end;
 }
-#trend h2,#updates h2{
+#trend h2,
+#updates h2 {
     font-size: 45px;
     color: #404040;
 }
-#trend>div:nth-child(1)>div>span,#updates>div:nth-child(1)>div>span{
+#trend > div:nth-child(1) > div > span,
+#updates > div:nth-child(1) > div > span {
     font-size: 18px;
     color: #ff763f;
 }
-#trend>div:nth-child(1)>div>a,#updates>div:nth-child(1)>div>a{
+#trend > div:nth-child(1) > div > a,
+#updates > div:nth-child(1) > div > a {
     text-decoration: none;
     color: #ff763f;
     font-size: 15px;
 }
-.tempdiv{
+.tempdiv {
     display: flex;
     justify-content: center;
     padding-top: 60px;
 }
-.template{
+.template {
     width: 35%;
-    padding: 15px 15px 50px 15px ;
+    padding: 15px 15px 50px 15px;
     margin-right: 15px;
     border-radius: 10px;
     border: 0px solid black;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.template>img{
+.template > img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
     padding-bottom: 30px;
 }
-.template>a{
+.template > a {
     text-decoration: none;
     color: #404040;
     font-size: 22px;
     font-weight: bold;
 }
-.template>span{
+.template > span {
     font-size: 12px;
     margin-top: 30px;
 }
-.template>p{
+.template > p {
     font-size: 16px;
     color: #0c0c0c;
     margin-top: 20px;
 }
-#know{
+#know {
     padding: 100px 0px 60px 0px;
 }
-#back{
+#back {
     position: relative;
     display: flex;
     justify-content: center;
@@ -328,30 +336,30 @@
     height: 400px;
     margin-top: 20px;
 }
-#know>div>img{
+#know > div > img {
     width: 60%;
     height: 40%;
 }
-#know>span{
+#know > span {
     color: #ff763f;
     font-size: 22px;
     margin-left: 15%;
 }
-#know>div{
+#know > div {
     width: 70%;
     margin: auto;
 }
-#know>div>h3{
+#know > div > h3 {
     font-size: 39px;
     color: #404040;
     margin-top: 25px;
 }
-#know p{
+#know p {
     font-size: 18px;
     color: #2d2d2d;
     margin-top: 20px;
 }
-#know button{
+#know button {
     padding: 16px 60px;
     font-size: 20px;
     background-color: #ff763f;
@@ -360,125 +368,122 @@
     border: none;
     border-radius: 5px;
 }
-#meet_customer>div{
+#meet_customer > div {
     width: 70%;
     display: flex;
     margin: auto;
 }
-#meet_customer>div>div{
+#meet_customer > div > div {
     margin-left: 20px;
     padding: 15px 15px 15px 15px;
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-bottom: 20px;
 }
-.temp{
-    width: 50%
+.temp {
+    width: 50%;
 }
-.temp>img{
+.temp > img {
     width: 100%;
     height: 500px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 30px;
 }
-.temp>a{
+.temp > a {
     text-decoration: none;
     font-size: 22px;
     color: #404040;
     font-weight: bold;
 }
-#meet_customer>div:nth-child(2){
+#meet_customer > div:nth-child(2) {
     border: 0px solid red;
     padding-top: 40px;
     display: flex;
     justify-content: end;
     height: 50px;
 }
-#meet_customer>div:nth-child(2)>a{
+#meet_customer > div:nth-child(2) > a {
     color: #ff763f;
     font-size: 18px;
     text-decoration: none;
 }
-#footer{
+#footer {
     display: flex;
     margin: 100px 0px 50px 0px;
     justify-content: center;
 }
-#footer>div{
+#footer > div {
     width: 35%;
     text-align: center;
     margin-right: 30px;
 }
-#footer img{
+#footer img {
     width: 100%;
 }
-#footer h3{
+#footer h3 {
     font-size: 39px;
     color: #5c5c5c;
     margin-top: 100px;
 }
-#footer button{
-    font-size: 22px ;
+#footer button {
+    font-size: 22px;
     color: #f8f8f8;
-    padding: 16px 60px ;
+    padding: 16px 60px;
     background-color: #ff763f;
     border-radius: 5px;
     border: none;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-#footer a{
+#footer a {
     font-size: 20px;
     color: #5c5c5c;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-    #v_div{
+    #v_div {
         display: block;
     }
-    #v_div>div{
+    #v_div > div {
         margin-bottom: 70px;
     }
-    #tips>div{
+    #tips > div {
         display: block;
     }
-    #eat{
+    #eat {
         display: block;
     }
-    #eat>div{
+    #eat > div {
         width: 100%;
     }
-    #eat>div:nth-child(2){
+    #eat > div:nth-child(2) {
         display: block;
         text-align: center;
         margin-top: 30px;
     }
-    .tempdiv{
+    .tempdiv {
         display: block;
     }
-    .tempdiv>div{
+    .tempdiv > div {
         width: 70%;
         display: block;
         margin: auto;
     }
-    #meet_customer>div{
+    #meet_customer > div {
         display: block;
     }
-    .temp{
+    .temp {
         width: 100%;
         display: block;
         margin: auto;
     }
-    #footer{
+    #footer {
         display: block;
     }
-    #footer>div{
+    #footer > div {
         width: 70%;
         display: block;
         margin: auto;
     }
 }
-
-
-

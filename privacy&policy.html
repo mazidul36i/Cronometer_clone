@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/privacy&policy.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c0adbb8084.js" crossorigin="anonymous"></script>
+    <title>Cronometer</title>
 </head>
 
 <body>
-    <div id="navbar"></div>
+    <div id="navbar_container"></div>
     <hr>
-    <div id="conatiner" style="padding-bottom: 30px;" >
+    <div id="conatiner" style="padding-bottom: 30px;">
         <div id="privacy_title">
             <h3>PRIVACY POLICY</h3>
             <p>Last Revised: February 8th, 2022</p>
@@ -199,192 +200,408 @@
 
             </p>
             <p>Examples of cookies we use:</p>
-           <ul>
-            <li id="Topic_pointer" >Strictly Necessary Cookies: these cookies are strictly necessary for our Site to function properly and ensure our Services are accessible to you (e.g., log-in functionality, load balancing, navigation, filling in forms). The Site cannot function properly without these cookies.</li>
-            <li id="Topic_pointer" >Preference Cookies: enable our Site to provide enhanced features or settings based on your previous visits and selections, such as language preferences, remembering log-in details, remember searches and filter settings, and other conveniences.</li>
-            <li id="Topic_pointer" >Statistic Cookies: Statistic cookies enable us to understand how visitors interact with our Site by collecting and reporting information anonymously.</li>
-            <li id="Topic_pointer" >Social Media Cookies: These cookies are used to allow you to share or like our pages and content through third-party social media websites.</li>
-            <li id="Topic_pointer" >Marketing Cookies: Marketing cookies are used to track visitors across our Site. The intention is to display ads that are relevant and engaging for the individual user.
-            </li>
-            <!-- <li id="Topic_pointer" ></li> -->
-           </ul>   
-           <p>Cronometer uses Personal Information collected from you automatically perform data analysis, identify Site and Services usage trends, develop and display content and advertising tailored to your interests or location, and to measure the effectiveness of our marketing efforts and our Services. Cronometer may use and store this information and the reports we generate using this information in an anonymized form or in the aggregate that it is not associated with individual end users and does not include personal information.
+            <ul>
+                <li id="Topic_pointer">Strictly Necessary Cookies: these cookies are strictly necessary for our Site to
+                    function properly and ensure our Services are accessible to you (e.g., log-in functionality, load
+                    balancing, navigation, filling in forms). The Site cannot function properly without these cookies.
+                </li>
+                <li id="Topic_pointer">Preference Cookies: enable our Site to provide enhanced features or settings
+                    based on your previous visits and selections, such as language preferences, remembering log-in
+                    details, remember searches and filter settings, and other conveniences.</li>
+                <li id="Topic_pointer">Statistic Cookies: Statistic cookies enable us to understand how visitors
+                    interact with our Site by collecting and reporting information anonymously.</li>
+                <li id="Topic_pointer">Social Media Cookies: These cookies are used to allow you to share or like our
+                    pages and content through third-party social media websites.</li>
+                <li id="Topic_pointer">Marketing Cookies: Marketing cookies are used to track visitors across our Site.
+                    The intention is to display ads that are relevant and engaging for the individual user.
+                </li>
+                <!-- <li id="Topic_pointer" ></li> -->
+            </ul>
+            <p>Cronometer uses Personal Information collected from you automatically perform data analysis, identify
+                Site and Services usage trends, develop and display content and advertising tailored to your interests
+                or location, and to measure the effectiveness of our marketing efforts and our Services. Cronometer may
+                use and store this information and the reports we generate using this information in an anonymized form
+                or in the aggregate that it is not associated with individual end users and does not include personal
+                information.
 
-           </p>
-           <p><span>Other ways we might use your Personal Information.</span> In addition to the specific uses and purposes described above, we might use information that we collect about you or that you provide to us, including any Personal Information:</p>          
-<ul>
-    <li id="Topic_pointer" >To present our Site and its contents to you.</li>
-    <li id="Topic_pointer" >To provide you with information, products, or services that you request from us or that we deem relevant to you.</li>
-    <li id="Topic_pointer" >To allow you to participate in interactive features on our Site or to notify you about changes to our Site or any products or services we offer or provide though it.</li>
-    <li id="Topic_pointer" >To provide you with other information about a business or organization with which we are associated.</li>
-    <li id="Topic_pointer" >To protect your privacy and enforce this Privacy Notice.</li>
-    <li id="Topic_pointer" >If we believe it is necessary to identify, contact or bring legal action against persons or entities who may be causing injury to you, to Cronometer, or to others.</li>
-    <li id="Topic_pointer" >To comply with applicable law, regulation, legal process or court order.</li>
-    <li id="Topic_pointer" >For any other purpose to which you consent.</li>
-
-
-</ul>
-<p>=<span>Children Under Age 16.</span> Cronometer products and services are designed to benefit both adults and children. However, any Personal Information submitted pertaining to children under the age of 16 must be explicitly consented to by that child’s parent or legal guardian. As such, this Site may not be used, and no Personal Information should be submitted from children under 16 years of age without such consent. If you are under 16, do not use or provide any information on this Site or on or through any of its features, make any purchases through the Site, use any of the interactive or public comment features of the Site or provide any information about yourself to us, including your name, address, telephone number, email address, or any screen name or user name you may use. If we learn we have collected or received Personal Information from a child under 16 without verification of parental or legal guardian consent, we will delete that information. If you believe we might have any information from or about a child under 16 without appropriate consent from a legal guardian, please contact us at privacy@cronometer.com.</p>
-   <h3>DISCLOSURE OF YOUR INFORMATION
-
-</h3>
-<p>As permitted by applicable law, we may share your Personal Information as follows:</p>
-          <ul>
-            <li id="titlewith_li" >
-                <p>  <span>To Our Service Providers. </span>Vendors that provide us with various services (collectively, “Service Providers”) may have access to your Personal Information while they are performing their contractual obligations. Examples of Service Providers we use include payment processors, data analytics companies, email delivery, web hosting services, customer service, and marketing services. We prohibit our Service Providers from selling or disclosing the Personal Information we provide, and we require all Service Providers to maintain confidentiality standards that are commercially reasonable to ensure the security of your Personal Information. These Service Providers include but are not limited to marketing companies, companies that host our Site or App, or provide IT services to support either, platforms we use to help us manage our data and companies that assist us in processing job applications that you submit through our Site. The type of information that we provide to a Service Provider will depend on the purpose of the service that they provide to us.</p>
-            </li>
-            <li id="titlewith_li" ><span>To Our Advertisers.</span> For users accessing our free Services, we disclose information to Service Providers that are network advertisers, sponsors, and/or traffic measurement services (collectively, “Advertisers”) to enable those Advertisers to serve targeted advertisements [A9]to you on the Site, the App or other Sites or media (e.g., social networking platforms). We allow some Advertisers to assist us with behavioral advertising by collecting and analyzing certain information when you visit our Site (e.g., click stream information, browser type, time and date, subject clicked or scrolled over). These Advertisers typically use a cookie or other technologies to personalize advertising content and measure the effectiveness of their ads. Additionally, for users paying for our Services, we may from time to time send you offers from Advertisers, but generally speaking you will not be subject to the targeted advertisements mentioned above.</li>
-            <li id="titlewith_li" ><p><span>Other Third Parties. </span> As permitted by applicable law, we may disclose Personal Information to third parties (i) as part of a business transition (e.g. a merger or acquisition by another company); (ii) to comply with federal, state, or local law, a judicial proceeding, court order, or other legal process, or if we have a good faith belief that disclosure is necessary to comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by federal, state, or local authorities; (iii) if we believe it is appropriate in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the safety of any person, violations of our Terms of Use or this Privacy Notice, or to exercise or defend our legal claims; or (iv) in any case where we have obtained your prior consent.</p></li>
-            <li id="titlewith_li" ><p><span>For Legal and Other Compliance.</span> We may disclose Personal Information when we believe it is appropriate to: (a) comply with the law, (b) enforce or apply this Privacy Notice or our other policies or agreements, (b) protect our or our users' rights, property or safety, (c) protect our users from fraudulent, abusive or unlawful use of, our Site, or (d) if we reasonably believe that an emergency involving immediate danger of death or serious physical injury to any person requires disclosure of communications or justifies disclosure of records without delay.</p></li>  
-            <li id="titlewith_li" ><p><span>As Part of Business Transfers.</span> We may disclose Personal Information as part of any merger, acquisition, debt financing, sale of company assets or other business transaction. In this situation, we will ensure that standard confidentiality and data security measures are agreed to by all parties with access to Personal Information.</p></li>
-            <li id="titlewith_li" >  <p><span>As Aggregated or Deidentified Information.</span> We reserve the right to share or sell aggregated, anonymous or deidentified information about any individuals with non-affiliated entities for marketing, advertising, research or other purposes, without restriction. We do not limit the third parties’ use of the aggregated information.</p></li>
-            <li id="titlewith_li" ><p><span>As PHI Information.</span> If information constitutes PHI, We will only use or share PHI in compliance with the privacy and data security requirements of HIPAA, and in conformity with the terms and conditions of any applicable Business Associate Agreement.</p></li>
-        
-        </ul>
-         <h3>SECURITY</h3>
-         <p> <span>Data Security. </span> It is Cronometer’s policy to treat your Personal Information with complete confidentiality. We minimize the Personal Information we store and employ commercially appropriate and reasonable safeguards both online and offline to maintain the security, confidentiality, and integrity of information that we collect about you. We maintain physical, electronic and procedural security measures to safeguard your non-public personal information. We update and test our technology to improve the protection of our information about you and to assure the integrity of that information.
+            </p>
+            <p><span>Other ways we might use your Personal Information.</span> In addition to the specific uses and
+                purposes described above, we might use information that we collect about you or that you provide to us,
+                including any Personal Information:</p>
+            <ul>
+                <li id="Topic_pointer">To present our Site and its contents to you.</li>
+                <li id="Topic_pointer">To provide you with information, products, or services that you request from us
+                    or that we deem relevant to you.</li>
+                <li id="Topic_pointer">To allow you to participate in interactive features on our Site or to notify you
+                    about changes to our Site or any products or services we offer or provide though it.</li>
+                <li id="Topic_pointer">To provide you with other information about a business or organization with which
+                    we are associated.</li>
+                <li id="Topic_pointer">To protect your privacy and enforce this Privacy Notice.</li>
+                <li id="Topic_pointer">If we believe it is necessary to identify, contact or bring legal action against
+                    persons or entities who may be causing injury to you, to Cronometer, or to others.</li>
+                <li id="Topic_pointer">To comply with applicable law, regulation, legal process or court order.</li>
+                <li id="Topic_pointer">For any other purpose to which you consent.</li>
 
 
-            We educate our employees about the importance of confidentiality and customer privacy through standard operating procedures and special training programs.</p>
-          <p>We educate our employees about the importance of confidentiality and customer privacy through standard operating procedures and special training programs.</p>
-          <p>n many instances we employ state-of-the-art, and in any event commercially reasonable, measures to protect your Personal Information, such as two-factor authentication, penetration testing, the implementation of privacy-by-design and thorough vetting of our hosting services providers. However, please note, however, that no transmission of data over the internet is 100% secure and we cannot guarantee that unauthorized third parties will not defeat those measures and use nonpublic Personal Information for improper purposes. Therefore, we are not responsible for circumvention of any privacy settings or security measures contained on the Site or for actions of third parties. The safety and security of your information also depends on you, and you are responsible for keeping your password confidential. Also, always remember to log off your account and close your browser window when you have finished your visit. This is to ensure that others cannot access your account, especially if you are sharing a computer with someone else or are using a computer in a public place. Please refer to the Federal Trade Commission's website at http://www.ftc.gov/bcp/menus/consumer/data.shtm for information about how to help protect yourself against identity theft.</p>
-          <p><span>Public Forums.</span> If you choose to make use of any public forum, comment section or chat function, we may collect any information you may disclose through such means.</p>
-          <p><span>In-Media Communications.</span> If you choose to send a message to another user or defined group of users through our message, chat, post or other function, we may collect any information you may disclose through such means, as well as the necessary Personal Information of the user(s) you are contacting, in order to facilitate the communication.</p>
-          <p><span>Third Party Sites.</span> This Privacy Notice applies only to information collected by Cronometer. We may provide links to third party websites from our Sites as a service to our users, but we have no ability to control, and we are not responsible for, the privacy and data collection, use, and disclosure practices of third party websites. When you click on links that take you to external websites, you will be subject to their privacy policies and practices and not ours. We encourage you to review and understand the privacy policies of such websites before providing them with any information.</p>
-          <p><span>Photos and Videos.</span> If you post a video, image or photo on our Site for public view you should be aware that these may be viewed, collected, copied and/or used by other users without your knowledge or consent. We are not responsible for the videos, or photos that you choose to submit to the public sections our Site. For clarity, there are also private sections of the Site where you can submit content that will not be viewable by other users. Please see our Terms of Service at https://cronometer.com/terms/ on this point and for other guidelines about posting content on any portion of our Site.
+            </ul>
+            <p>=<span>Children Under Age 16.</span> Cronometer products and services are designed to benefit both adults
+                and children. However, any Personal Information submitted pertaining to children under the age of 16
+                must be explicitly consented to by that child’s parent or legal guardian. As such, this Site may not be
+                used, and no Personal Information should be submitted from children under 16 years of age without such
+                consent. If you are under 16, do not use or provide any information on this Site or on or through any of
+                its features, make any purchases through the Site, use any of the interactive or public comment features
+                of the Site or provide any information about yourself to us, including your name, address, telephone
+                number, email address, or any screen name or user name you may use. If we learn we have collected or
+                received Personal Information from a child under 16 without verification of parental or legal guardian
+                consent, we will delete that information. If you believe we might have any information from or about a
+                child under 16 without appropriate consent from a legal guardian, please contact us at
+                privacy@cronometer.com.</p>
+            <h3>DISCLOSURE OF YOUR INFORMATION
+
+            </h3>
+            <p>As permitted by applicable law, we may share your Personal Information as follows:</p>
+            <ul>
+                <li id="titlewith_li">
+                    <p> <span>To Our Service Providers. </span>Vendors that provide us with various services
+                        (collectively, “Service Providers”) may have access to your Personal Information while they are
+                        performing their contractual obligations. Examples of Service Providers we use include payment
+                        processors, data analytics companies, email delivery, web hosting services, customer service,
+                        and marketing services. We prohibit our Service Providers from selling or disclosing the
+                        Personal Information we provide, and we require all Service Providers to maintain
+                        confidentiality standards that are commercially reasonable to ensure the security of your
+                        Personal Information. These Service Providers include but are not limited to marketing
+                        companies, companies that host our Site or App, or provide IT services to support either,
+                        platforms we use to help us manage our data and companies that assist us in processing job
+                        applications that you submit through our Site. The type of information that we provide to a
+                        Service Provider will depend on the purpose of the service that they provide to us.</p>
+                </li>
+                <li id="titlewith_li"><span>To Our Advertisers.</span> For users accessing our free Services, we
+                    disclose information to Service Providers that are network advertisers, sponsors, and/or traffic
+                    measurement services (collectively, “Advertisers”) to enable those Advertisers to serve targeted
+                    advertisements [A9]to you on the Site, the App or other Sites or media (e.g., social networking
+                    platforms). We allow some Advertisers to assist us with behavioral advertising by collecting and
+                    analyzing certain information when you visit our Site (e.g., click stream information, browser type,
+                    time and date, subject clicked or scrolled over). These Advertisers typically use a cookie or other
+                    technologies to personalize advertising content and measure the effectiveness of their ads.
+                    Additionally, for users paying for our Services, we may from time to time send you offers from
+                    Advertisers, but generally speaking you will not be subject to the targeted advertisements mentioned
+                    above.</li>
+                <li id="titlewith_li">
+                    <p><span>Other Third Parties. </span> As permitted by applicable law, we may disclose Personal
+                        Information to third parties (i) as part of a business transition (e.g. a merger or acquisition
+                        by another company); (ii) to comply with federal, state, or local law, a judicial proceeding,
+                        court order, or other legal process, or if we have a good faith belief that disclosure is
+                        necessary to comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or
+                        summons by federal, state, or local authorities; (iii) if we believe it is appropriate in order
+                        to investigate, prevent, or take action regarding illegal activities, suspected fraud,
+                        situations involving potential threats to the safety of any person, violations of our Terms of
+                        Use or this Privacy Notice, or to exercise or defend our legal claims; or (iv) in any case where
+                        we have obtained your prior consent.</p>
+                </li>
+                <li id="titlewith_li">
+                    <p><span>For Legal and Other Compliance.</span> We may disclose Personal Information when we believe
+                        it is appropriate to: (a) comply with the law, (b) enforce or apply this Privacy Notice or our
+                        other policies or agreements, (b) protect our or our users' rights, property or safety, (c)
+                        protect our users from fraudulent, abusive or unlawful use of, our Site, or (d) if we reasonably
+                        believe that an emergency involving immediate danger of death or serious physical injury to any
+                        person requires disclosure of communications or justifies disclosure of records without delay.
+                    </p>
+                </li>
+                <li id="titlewith_li">
+                    <p><span>As Part of Business Transfers.</span> We may disclose Personal Information as part of any
+                        merger, acquisition, debt financing, sale of company assets or other business transaction. In
+                        this situation, we will ensure that standard confidentiality and data security measures are
+                        agreed to by all parties with access to Personal Information.</p>
+                </li>
+                <li id="titlewith_li">
+                    <p><span>As Aggregated or Deidentified Information.</span> We reserve the right to share or sell
+                        aggregated, anonymous or deidentified information about any individuals with non-affiliated
+                        entities for marketing, advertising, research or other purposes, without restriction. We do not
+                        limit the third parties’ use of the aggregated information.</p>
+                </li>
+                <li id="titlewith_li">
+                    <p><span>As PHI Information.</span> If information constitutes PHI, We will only use or share PHI in
+                        compliance with the privacy and data security requirements of HIPAA, and in conformity with the
+                        terms and conditions of any applicable Business Associate Agreement.</p>
+                </li>
+
+            </ul>
+            <h3>SECURITY</h3>
+            <p> <span>Data Security. </span> It is Cronometer’s policy to treat your Personal Information with complete
+                confidentiality. We minimize the Personal Information we store and employ commercially appropriate and
+                reasonable safeguards both online and offline to maintain the security, confidentiality, and integrity
+                of information that we collect about you. We maintain physical, electronic and procedural security
+                measures to safeguard your non-public personal information. We update and test our technology to improve
+                the protection of our information about you and to assure the integrity of that information.
 
 
-            Updates and Push Notifications. We may occasionally send you updates, patches and related push notifications that may be of importance to you. If you do not wish to receive updates, patches and notifications you should discontinue use of our Site and/or Services or disconnect your computer or device from the Internet. If you do not wish to receive push notifications, do not select the "Send me newsletters and promotional emails" box under your Account Information in your Cronometer Profile. If you choose to enable push notifications, we may use your information such as a device ID or email address in order to send push notifications to your device.</p>
-          <p><span>Do Not Track Signals.</span> Do Not Track is a privacy preference that users can set in their web browsers. When a user turns on the Do Not Track signal, the browser sends a message to websites requesting them not to track the user. For information about Do Not Track, visit www.allaboutdnt.org. At this time, Cronometer does not respond to Do Not Track browser settings or signals. In addition, Cronometer may use other technology that is standard to the internet to track visitors to the Site. Those tools may be used by us and by third parties to collect information about you and your internet activity, even if you have turned on the Do Not Track signal.
+                We educate our employees about the importance of confidentiality and customer privacy through standard
+                operating procedures and special training programs.</p>
+            <p>We educate our employees about the importance of confidentiality and customer privacy through standard
+                operating procedures and special training programs.</p>
+            <p>n many instances we employ state-of-the-art, and in any event commercially reasonable, measures to
+                protect your Personal Information, such as two-factor authentication, penetration testing, the
+                implementation of privacy-by-design and thorough vetting of our hosting services providers. However,
+                please note, however, that no transmission of data over the internet is 100% secure and we cannot
+                guarantee that unauthorized third parties will not defeat those measures and use nonpublic Personal
+                Information for improper purposes. Therefore, we are not responsible for circumvention of any privacy
+                settings or security measures contained on the Site or for actions of third parties. The safety and
+                security of your information also depends on you, and you are responsible for keeping your password
+                confidential. Also, always remember to log off your account and close your browser window when you have
+                finished your visit. This is to ensure that others cannot access your account, especially if you are
+                sharing a computer with someone else or are using a computer in a public place. Please refer to the
+                Federal Trade Commission's website at http://www.ftc.gov/bcp/menus/consumer/data.shtm for information
+                about how to help protect yourself against identity theft.</p>
+            <p><span>Public Forums.</span> If you choose to make use of any public forum, comment section or chat
+                function, we may collect any information you may disclose through such means.</p>
+            <p><span>In-Media Communications.</span> If you choose to send a message to another user or defined group of
+                users through our message, chat, post or other function, we may collect any information you may disclose
+                through such means, as well as the necessary Personal Information of the user(s) you are contacting, in
+                order to facilitate the communication.</p>
+            <p><span>Third Party Sites.</span> This Privacy Notice applies only to information collected by Cronometer.
+                We may provide links to third party websites from our Sites as a service to our users, but we have no
+                ability to control, and we are not responsible for, the privacy and data collection, use, and disclosure
+                practices of third party websites. When you click on links that take you to external websites, you will
+                be subject to their privacy policies and practices and not ours. We encourage you to review and
+                understand the privacy policies of such websites before providing them with any information.</p>
+            <p><span>Photos and Videos.</span> If you post a video, image or photo on our Site for public view you
+                should be aware that these may be viewed, collected, copied and/or used by other users without your
+                knowledge or consent. We are not responsible for the videos, or photos that you choose to submit to the
+                public sections our Site. For clarity, there are also private sections of the Site where you can submit
+                content that will not be viewable by other users. Please see our Terms of Service at
+                https://cronometer.com/terms/ on this point and for other guidelines about posting content on any
+                portion of our Site.
 
-        </p>
-          <p><span>Unauthorized Use. </span> If you become aware of any unauthorized submission of information to Cronometer, including children’s information, please inform us by contacting us at the contact information listed below so that we may delete it.</p>
-<h3>CONTROLLING YOUR PERSONAL INFORMATION</h3>
-          <p>Cronometer provides you the ability to exercise certain controls and choices regarding our collection, use and sharing of your information. Depending on where you reside, your options to control your Personal Information may include some or all of the following:</p>
-     <ul>
-        <li id="Topic_pointer" >Changing the Services for which you are signed up.</li>
-        <li id="Topic_pointer" >Changing your preferences for how and about what we communicate with you.</li>
 
-        <li id="Topic_pointer" >Correcting, updating, and deleting the Personal Information in your account. Please note that certain legal obligations may limit or prevent our ability to fulfill these requests, and that copies of information that you have updated, modified or deleted may remain viewable in cached and archived pages of the Site, Portal, or App for a period of time.</li>
-        <li id="Topic_pointer" >Requesting access to the Personal Information we hold about you and that we amend or delete it.</li>
+                Updates and Push Notifications. We may occasionally send you updates, patches and related push
+                notifications that may be of importance to you. If you do not wish to receive updates, patches and
+                notifications you should discontinue use of our Site and/or Services or disconnect your computer or
+                device from the Internet. If you do not wish to receive push notifications, do not select the "Send me
+                newsletters and promotional emails" box under your Account Information in your Cronometer Profile. If
+                you choose to enable push notifications, we may use your information such as a device ID or email
+                address in order to send push notifications to your device.</p>
+            <p><span>Do Not Track Signals.</span> Do Not Track is a privacy preference that users can set in their web
+                browsers. When a user turns on the Do Not Track signal, the browser sends a message to websites
+                requesting them not to track the user. For information about Do Not Track, visit www.allaboutdnt.org. At
+                this time, Cronometer does not respond to Do Not Track browser settings or signals. In addition,
+                Cronometer may use other technology that is standard to the internet to track visitors to the Site.
+                Those tools may be used by us and by third parties to collect information about you and your internet
+                activity, even if you have turned on the Do Not Track signal.
 
-        <li id="Topic_pointer" >Choosing whether to receive marketing communications from us, including promotions, surveys, and information about products and services that may be of interest to you.</li>
-        <li id="Topic_pointer" >Control how the cookies we use interact with your browser.</li>
-     </ul>
-          <p>At any time, you may exercise any of these controls and choices, express concerns, lodge a complaint, or obtain additional information about the use of your Personal Information by contacting us at privacy@cronometer.com.</p>
-          <p><span>Opting Out of Communications</span>. We will only communicate with you if you want to hear from us, or if it necessitated by the Services you receive from us (i.e. transactional, payment or invoicing related messages). You can modify or limit the communications we send to you by clicking the “unsubscribe” link at the bottom of any of our emails, or by visiting the “Settings” section of the Site where you can make specific choices regarding your communication preferences. You may also contact us directly by email at privacy@cronometer.com. Please be sure to include your full name, email address and specifically what information you do not want to receive.</p>
-   <h3>CALIFORNIA PRIVACY RIGHTS</h3>
+            </p>
+            <p><span>Unauthorized Use. </span> If you become aware of any unauthorized submission of information to
+                Cronometer, including children’s information, please inform us by contacting us at the contact
+                information listed below so that we may delete it.</p>
+            <h3>CONTROLLING YOUR PERSONAL INFORMATION</h3>
+            <p>Cronometer provides you the ability to exercise certain controls and choices regarding our collection,
+                use and sharing of your information. Depending on where you reside, your options to control your
+                Personal Information may include some or all of the following:</p>
+            <ul>
+                <li id="Topic_pointer">Changing the Services for which you are signed up.</li>
+                <li id="Topic_pointer">Changing your preferences for how and about what we communicate with you.</li>
 
-<p>Cronometer adopted this section to comply with the California Consumer Privacy Act of 2018 (“CCPA”) and applies solely to residents of the State of California (“California Consumers”). Without limiting the foregoing, this section provides California Consumers with the disclosures and notices required under the CCPA. Certain exceptions and limitations, may apply to a California Consumer’s rights and Cronometer’s obligations under the CCPA.
+                <li id="Topic_pointer">Correcting, updating, and deleting the Personal Information in your account.
+                    Please note that certain legal obligations may limit or prevent our ability to fulfill these
+                    requests, and that copies of information that you have updated, modified or deleted may remain
+                    viewable in cached and archived pages of the Site, Portal, or App for a period of time.</li>
+                <li id="Topic_pointer">Requesting access to the Personal Information we hold about you and that we amend
+                    or delete it.</li>
 
-</p>        
-        <p><span>Personal Information Collected.</span> Cronometer has collected the following categories of Personal Information from California Consumers within the last twelve (12) months:</p>
-         <ul>
-            <li id="Topic_pointer" >Identifiers (e.g. real name, alias, online identifier, IP address, email address, or other similar identifiers).</li>
-            <li id="Topic_pointer" >Personal Information Categories Listed in the California Customer Records Statute (Cal. Civ. Code § 1798.80(e)). Some Personal Information included in this category may overlap with other categories.</li>
-            <li id="Topic_pointer" >Internet or Similar Network Activity (e.g. browsing history within the Site, search history within the Site, interactions with the Site, Application, or our advertisement).</li>
-            <li id="Topic_pointer" >Geolocation Data (e.g. physical location or movements).
-            </li> 
-            <li id="Topic_pointer" ></li>
-           
-         </ul> 
-         <p><span>Personal Information Collected. </span> Cronometer has collected the following categories of Personal Information from California Consumers within the last twelve (12) months:</p>
-         <ul>
-            <li id="Topic_pointer" >Identifiers (e.g. real name, alias, online identifier, IP address, email address, or other similar identifiers).</li>
-            <li id="Topic_pointer" >Personal Information Categories Listed in the California Customer Records Statute (Cal. Civ. Code § 1798.80(e)). Some Personal Information included in this category may overlap with other categories.</li>
-            <li id="Topic_pointer" >Internet or Similar Network Activity (e.g. browsing history within the Site, search history within the Site, interactions with the Site, Application, or our advertisement).</li>
-            <li id="Topic_pointer" >Geolocation Data (e.g. physical location or movements).
-            </li>
-        </ul>
-        <p>Geolocation Data (e.g. physical location or movements).
-        </p>
-<p><span>Disclosing Personal Information.</span> Cronometer may disclose Personal Information for a business purpose to the following categories of third parties:</p>
-<ul>
-    <li id="Topic_pointer" >law enforcement, regulatory and other governmental agencies.
-        business partn</li>
-    <li id="Topic_pointer" >business partners.
-    </li>
+                <li id="Topic_pointer">Choosing whether to receive marketing communications from us, including
+                    promotions, surveys, and information about products and services that may be of interest to you.
+                </li>
+                <li id="Topic_pointer">Control how the cookies we use interact with your browser.</li>
+            </ul>
+            <p>At any time, you may exercise any of these controls and choices, express concerns, lodge a complaint, or
+                obtain additional information about the use of your Personal Information by contacting us at
+                privacy@cronometer.com.</p>
+            <p><span>Opting Out of Communications</span>. We will only communicate with you if you want to hear from us,
+                or if it necessitated by the Services you receive from us (i.e. transactional, payment or invoicing
+                related messages). You can modify or limit the communications we send to you by clicking the
+                “unsubscribe” link at the bottom of any of our emails, or by visiting the “Settings” section of the Site
+                where you can make specific choices regarding your communication preferences. You may also contact us
+                directly by email at privacy@cronometer.com. Please be sure to include your full name, email address and
+                specifically what information you do not want to receive.</p>
+            <h3>CALIFORNIA PRIVACY RIGHTS</h3>
 
-    <li id="Topic_pointer" >parent entities, affiliates and subsidiaries.</li>
-    <li id="Topic_pointer" >cookie information recipients, subject to their respective privacy notices.</li>
-  
+            <p>Cronometer adopted this section to comply with the California Consumer Privacy Act of 2018 (“CCPA”) and
+                applies solely to residents of the State of California (“California Consumers”). Without limiting the
+                foregoing, this section provides California Consumers with the disclosures and notices required under
+                the CCPA. Certain exceptions and limitations, may apply to a California Consumer’s rights and
+                Cronometer’s obligations under the CCPA.
 
-</ul>
-<p>In the preceding twelve (12) months, Cronometer has disclosed the following categories of Personal Information for a business purpose[A10]:</p>
-<ul>
-    <li id="Topic_pointer" >identifiers.</li>
-    <li id="Topic_pointer" >California Customer Records Personal Information categories.</li>
-    <li id="Topic_pointer" >internet or other similar network activity.
-        geolocation data.</li>
+            </p>
+            <p><span>Personal Information Collected.</span> Cronometer has collected the following categories of
+                Personal Information from California Consumers within the last twelve (12) months:</p>
+            <ul>
+                <li id="Topic_pointer">Identifiers (e.g. real name, alias, online identifier, IP address, email address,
+                    or other similar identifiers).</li>
+                <li id="Topic_pointer">Personal Information Categories Listed in the California Customer Records Statute
+                    (Cal. Civ. Code § 1798.80(e)). Some Personal Information included in this category may overlap with
+                    other categories.</li>
+                <li id="Topic_pointer">Internet or Similar Network Activity (e.g. browsing history within the Site,
+                    search history within the Site, interactions with the Site, Application, or our advertisement).</li>
+                <li id="Topic_pointer">Geolocation Data (e.g. physical location or movements).
+                </li>
+                <li id="Topic_pointer"></li>
 
-    <li id="Topic_pointer" >geolocation data.</li>
-</ul>
-<p><span>No Sale of Personal Information.</span> Cronometer has not sold any Personal Information in the preceding twelve (12) months.</p>
-<p> <span>Your Rights and Choices. </span> The CCPA provides California Consumers with specific rights regarding their Personal Information. The following paragraphs describe CCPA rights and explain how to exercise those rights. Each of these rights is subject to our receipt of a verifiable consumer request (see below).
- <p><span>Right to Disclosure.</span> You have the right to request that we disclose certain information to you about our collection and use of your Personal Information over the past 12 months, such as:</p>
+            </ul>
+            <p><span>Personal Information Collected. </span> Cronometer has collected the following categories of
+                Personal Information from California Consumers within the last twelve (12) months:</p>
+            <ul>
+                <li id="Topic_pointer">Identifiers (e.g. real name, alias, online identifier, IP address, email address,
+                    or other similar identifiers).</li>
+                <li id="Topic_pointer">Personal Information Categories Listed in the California Customer Records Statute
+                    (Cal. Civ. Code § 1798.80(e)). Some Personal Information included in this category may overlap with
+                    other categories.</li>
+                <li id="Topic_pointer">Internet or Similar Network Activity (e.g. browsing history within the Site,
+                    search history within the Site, interactions with the Site, Application, or our advertisement).</li>
+                <li id="Topic_pointer">Geolocation Data (e.g. physical location or movements).
+                </li>
+            </ul>
+            <p>Geolocation Data (e.g. physical location or movements).
+            </p>
+            <p><span>Disclosing Personal Information.</span> Cronometer may disclose Personal Information for a business
+                purpose to the following categories of third parties:</p>
+            <ul>
+                <li id="Topic_pointer">law enforcement, regulatory and other governmental agencies.
+                    business partn</li>
+                <li id="Topic_pointer">business partners.
+                </li>
 
-</p>
+                <li id="Topic_pointer">parent entities, affiliates and subsidiaries.</li>
+                <li id="Topic_pointer">cookie information recipients, subject to their respective privacy notices.</li>
 
-<ul>
-    <li id="Topic_pointer" >the categories of Personal Information we have collected about you.</li>
-    <li id="Topic_pointer" >the categories of sources for the Personal Information we have collected about you.</li>
 
-    <li id="Topic_pointer" >our business or commercial purpose for collecting or selling that Personal Information.</li>
-    <li id="Topic_pointer" >the categories of third parties with whom we share that Personal Information.</li>
-    <li id="Topic_pointer" >if we sold or disclosed your Personal Information for a business purpose, two separate lists disclosing (i) sales, identifying the Personal Information categories that each category of recipient purchased; and (ii) disclosures for a business purpose, identifying the Personal Information categories that each category of recipient obtained.</li>
-    <li id="Topic_pointer" ></li>
-</ul>
-<p>Cronometer is only required to respond to two disclosure requests within a 12-month period.</p>
-  <p><span>Right to Access.</span> You have the right to request that we provide you with access to specific pieces of Personal Information we have collected about you over the past 12 months (also called a data portability request). If you submit a right to access request, we will provide you with copies of the requested pieces of Personal Information in a portable and readily usable format. Please note that Cronometer is prohibited by law from disclosing copies of certain pieces of Personal Information (e.g., government identification numbers, financial account information, and passwords or security questions and answers) because the disclosure would create a substantial, articulable, and unreasonable risk to the security of the information, our business systems, or your account. Cronometer is only required by law to respond to two access requests within a 12-month period.</p>   
+            </ul>
+            <p>In the preceding twelve (12) months, Cronometer has disclosed the following categories of Personal
+                Information for a business purpose[A10]:</p>
+            <ul>
+                <li id="Topic_pointer">identifiers.</li>
+                <li id="Topic_pointer">California Customer Records Personal Information categories.</li>
+                <li id="Topic_pointer">internet or other similar network activity.
+                    geolocation data.</li>
 
-<p><span>Right to Deletion.</span> You have the right to request that we delete any of your Personal Information that we collected from you and retained, with certain exceptions. Cronometer may permanently delete, deidentify, or aggregate the Personal Information in response to a request for deletion. If you submit a right to deletion request, we will confirm the Personal Information to be deleted prior to its deletion, and we will notify you when your request is complete.
-</p>
-<p>
-   <span> Submit a Consumer Privacy Request.</span> To exercise any of the above rights, please submit a verifiable consumer privacy request to Cronometer by email at privacy@cronometer.com.</p>
-<p><span>Verification.</span> We cannot respond to your request or provide you with Personal Information unless we can verify your identity and your authority to make the request and confirm that the Personal Information relates to you. A verifiable consumer privacy request must:</p>
- <p><span>Terms of Use.</span> We encourage you to familiarize yourself with the Site Terms of Use (https://cronometer.com/terms/) which governs all matters not set forth in this Privacy Notice.
+                <li id="Topic_pointer">geolocation data.</li>
+            </ul>
+            <p><span>No Sale of Personal Information.</span> Cronometer has not sold any Personal Information in the
+                preceding twelve (12) months.</p>
+            <p> <span>Your Rights and Choices. </span> The CCPA provides California Consumers with specific rights
+                regarding their Personal Information. The following paragraphs describe CCPA rights and explain how to
+                exercise those rights. Each of these rights is subject to our receipt of a verifiable consumer request
+                (see below).
+            <p><span>Right to Disclosure.</span> You have the right to request that we disclose certain information to
+                you about our collection and use of your Personal Information over the past 12 months, such as:</p>
 
-</p>
-<p  ><span>Changes to this Privacy Notice.</span> We may occasionally make changes to this Privacy Notice to ensure its accuracy. If we make changes, the revised Privacy Notice will be posted online and the date of the newest version will be listed. Please check back frequently, especially before you provide us with personal information, to determine the current scope of the notice.
+            </p>
 
-</p>
-<p><span>Governing Law.</span> Those who choose to use or access the Site and/or Services from outside Canada do so on their own initiative and are responsible for compliance with local laws, if and to the extent local laws are applicable. Notwithstanding the foregoing, and recognizing the global nature of the Internet, each viewer and user shall comply with all local rules regarding online conduct and submission of acceptable materials. This Privacy Policy is governed and interpreted pursuant to the laws of the Province of British Columbia, Canada and the federal laws of Canada applicable therein, without regard to principles of conflicts of law that would impose the law of another jurisdiction, and you accept and submit to the exclusive jurisdiction of the courts located within the Province of British Columbia, Canada.
+            <ul>
+                <li id="Topic_pointer">the categories of Personal Information we have collected about you.</li>
+                <li id="Topic_pointer">the categories of sources for the Personal Information we have collected about
+                    you.</li>
 
-</p>
-<p><span>International Transfer.</span> We may transfer information that we collect about you to affiliated entities, or to other third parties across borders and from your country or jurisdiction to other countries or jurisdictions around the world. Please note that these countries and jurisdictions may not have the same personal information protection laws as your own jurisdiction, and you consent to the transfer of information over international borders and the use and disclosure of information about you, including Personal Information, as described in this Privacy Policy.</p>
- <h2>CONTACT INFORMATION</h2>
- <p>If you have any further questions about our collection and use of your Personal Information, or if you wish to exercise any of your rights over your Personal Information or if you have any questions about this Privacy Notice, please contact us at privacy@cronometer.com</p>
-<h2>Cronometer Software Inc.</h2>
-<h2>Attention:</h2>
-<p>Privacy Officer</p>
-<h2>Address:</h2>
-<p>PO Box 9099 <br>
-    Revelstoke,B.C., Canada <br>
-    V0E 3K0</p>
-    <h2>Email:</h2>
-    <p>privacy@cronometer.com</p>
-    
+                <li id="Topic_pointer">our business or commercial purpose for collecting or selling that Personal
+                    Information.</li>
+                <li id="Topic_pointer">the categories of third parties with whom we share that Personal Information.
+                </li>
+                <li id="Topic_pointer">if we sold or disclosed your Personal Information for a business purpose, two
+                    separate lists disclosing (i) sales, identifying the Personal Information categories that each
+                    category of recipient purchased; and (ii) disclosures for a business purpose, identifying the
+                    Personal Information categories that each category of recipient obtained.</li>
+                <li id="Topic_pointer"></li>
+            </ul>
+            <p>Cronometer is only required to respond to two disclosure requests within a 12-month period.</p>
+            <p><span>Right to Access.</span> You have the right to request that we provide you with access to specific
+                pieces of Personal Information we have collected about you over the past 12 months (also called a data
+                portability request). If you submit a right to access request, we will provide you with copies of the
+                requested pieces of Personal Information in a portable and readily usable format. Please note that
+                Cronometer is prohibited by law from disclosing copies of certain pieces of Personal Information (e.g.,
+                government identification numbers, financial account information, and passwords or security questions
+                and answers) because the disclosure would create a substantial, articulable, and unreasonable risk to
+                the security of the information, our business systems, or your account. Cronometer is only required by
+                law to respond to two access requests within a 12-month period.</p>
 
-</div>
+            <p><span>Right to Deletion.</span> You have the right to request that we delete any of your Personal
+                Information that we collected from you and retained, with certain exceptions. Cronometer may permanently
+                delete, deidentify, or aggregate the Personal Information in response to a request for deletion. If you
+                submit a right to deletion request, we will confirm the Personal Information to be deleted prior to its
+                deletion, and we will notify you when your request is complete.
+            </p>
+            <p>
+                <span> Submit a Consumer Privacy Request.</span> To exercise any of the above rights, please submit a
+                verifiable consumer privacy request to Cronometer by email at privacy@cronometer.com.
+            </p>
+            <p><span>Verification.</span> We cannot respond to your request or provide you with Personal Information
+                unless we can verify your identity and your authority to make the request and confirm that the Personal
+                Information relates to you. A verifiable consumer privacy request must:</p>
+            <p><span>Terms of Use.</span> We encourage you to familiarize yourself with the Site Terms of Use
+                (https://cronometer.com/terms/) which governs all matters not set forth in this Privacy Notice.
+
+            </p>
+            <p><span>Changes to this Privacy Notice.</span> We may occasionally make changes to this Privacy Notice to
+                ensure its accuracy. If we make changes, the revised Privacy Notice will be posted online and the date
+                of the newest version will be listed. Please check back frequently, especially before you provide us
+                with personal information, to determine the current scope of the notice.
+
+            </p>
+            <p><span>Governing Law.</span> Those who choose to use or access the Site and/or Services from outside
+                Canada do so on their own initiative and are responsible for compliance with local laws, if and to the
+                extent local laws are applicable. Notwithstanding the foregoing, and recognizing the global nature of
+                the Internet, each viewer and user shall comply with all local rules regarding online conduct and
+                submission of acceptable materials. This Privacy Policy is governed and interpreted pursuant to the laws
+                of the Province of British Columbia, Canada and the federal laws of Canada applicable therein, without
+                regard to principles of conflicts of law that would impose the law of another jurisdiction, and you
+                accept and submit to the exclusive jurisdiction of the courts located within the Province of British
+                Columbia, Canada.
+
+            </p>
+            <p><span>International Transfer.</span> We may transfer information that we collect about you to affiliated
+                entities, or to other third parties across borders and from your country or jurisdiction to other
+                countries or jurisdictions around the world. Please note that these countries and jurisdictions may not
+                have the same personal information protection laws as your own jurisdiction, and you consent to the
+                transfer of information over international borders and the use and disclosure of information about you,
+                including Personal Information, as described in this Privacy Policy.</p>
+            <h2>CONTACT INFORMATION</h2>
+            <p>If you have any further questions about our collection and use of your Personal Information, or if you
+                wish to exercise any of your rights over your Personal Information or if you have any questions about
+                this Privacy Notice, please contact us at privacy@cronometer.com</p>
+            <h2>Cronometer Software Inc.</h2>
+            <h2>Attention:</h2>
+            <p>Privacy Officer</p>
+            <h2>Address:</h2>
+            <p>PO Box 9099 <br>
+                Revelstoke,B.C., Canada <br>
+                V0E 3K0</p>
+            <h2>Email:</h2>
+            <p>privacy@cronometer.com</p>
+
+
+        </div>
     </div>
 
     <hr>
-    <h1  style="text-align: center;font-size: 1.41em ;color:  #4f4e53;; padding-top: 20px;" >Help us spread the good word about nutrition and become an affiliate.</h1>
-<div id="button_Nextpage" >  <div> <a href="https://www.shareasale.com/shareasale.cfm?merchantID=61121"><button>Become an Affiliate</button></a></div></div>
-<!-- Footer start -->
+    <h1 style="text-align: center;font-size: 1.41em ;color:  #4f4e53;; padding-top: 20px;">Help us spread the good word
+        about nutrition and become an affiliate.</h1>
+    <div id="button_Nextpage">
+        <div> <a href="https://www.shareasale.com/shareasale.cfm?merchantID=61121"><button>Become an
+                    Affiliate</button></a></div>
+    </div>
+    <!-- Footer start -->
 
-<div id="footer_container" ></div>
-<!-- Footer End -->
+    <div id="footer_container"></div>
+    <!-- Footer End -->
 </body>
 
 </html>
 <script type="module">
-    import navbar from './components/navbar.js'
-let nav =document.getElementById("navbar");
-nav.innerHTML=navbar();
-import footer from "./components/footer.js";
-let footerContainer = document.querySelector("#footer_container");
+    import navbar from '../components/navbar.js'
+    import footer from "../components/footer.js";
 
-footerContainer.innerHTML = footer();
+    let nav = document.getElementById("navbar_container");
+    let footerContainer = document.querySelector("#footer_container");
+
+    nav.innerHTML = navbar.getNavbar();
+    navbar.getFunction(document.body);
+    footerContainer.innerHTML = footer();
 
 </script>
