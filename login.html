@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+          padding: 0%;
+          margin: 0;
+        }
+        #container {
+            width: 33%;
+            height: 400px;
+            margin: auto;
+            margin-top: 20px;
+            border: 1px solid white;
+            border-radius:10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        .img {
+            width: 55%;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+
+        input {
+            width: 90%;
+            height: 35px;
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+            border: 1px solid gray;
+            margin-top: 10px;
+            
+        }
+
+        button {
+            width: 90%;
+            height: 35px;
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+            border: 1px solid gray;
+            margin-top: 10px;
+            font-size:15px;
+            font-weight: 700;
+        }
+        .div {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .con1 {
+            font-size: 17px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            color: #4f4e53;
+        }
+        .con1>a {
+            text-decoration: none;
+            color: orangered;
+        }
+
+        #line{
+            width:35%;
+            /* border:1px solid; */
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            margin-top:100px;
+        }
+        #line p a{
+            text-decoration: none;
+            color: #4f4e53;
+             font-weight: 600;
+             font-size:17px;
+            font-family: 'Open Sans', sans-serif;
+      
+        }
+        p{
+          padding: 10px 13px;
+            border-radius: 5px;
+        }
+        #line p:hover{
+            background-color:rgba(238, 212, 217, 0.511);
+        }
+
+        footer{
+            border:1px solid white;
+            width:100%;
+            height:200px;
+            background-color: #4f4e53;
+          
+        }
+        #foo1{
+            margin: auto;
+            margin-top: 20px;
+              display: flex; 
+             justify-content: space-between;
+        }
+      
+        .foimg{
+            width:40%;
+            height:60px;
+            margin-top:20px;
+            margin-left:20px;
+        }
+        .foimg:hover{
+           opacity: 0.5;
+        }
+
+
+
+        .midimg{
+            width:42%;
+            display: block;
+            margin: auto;
+            margin-top:20px;
+        }
+
+
+        #logo{
+            width:20%;
+        }
+        .logo{
+            float: right;
+            width:10%;
+            margin-top:20px;
+            margin-right:20px;
+            margin-left: 0%;
+        }
+        .logo:hover{
+            border-color: orangered;
+        }
+        .copy{
+            color: white;
+            margin-left:80px;
+            margin-top:10px;
+            font-size:12px;
+        }
+        .copy:hover{
+            color: orangered;
+        }
+
+        #sup{
+            position: fixed;
+            width:8%;
+            height:50px;
+            border-radius:30px;
+            float: left;
+            margin-left:30px;
+            color: white;
+            background-color:#27ae60;
+            border-color: #4de48c;
+            margin-top:-30px;
+        }
+        
+
+        #supdiv{
+            width:20%;
+            height:150px;
+            float: left;
+            margin-left:30px;
+            /* background-color:white; */
+            margin-top:-60px;
+        }
+        #supdiv>p{
+            text-align:center;
+            /* background-color: #4de48c; */
+            /* color: white; */
+        }
+        #supdiv>input{
+            width:90%;
+            height:20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img src="https://cdn1.cronometer.com/logos/cronometer-logo-orange.png" alt="" class="img">
+        <input type="text" placeholder="Email Address" id="email">
+        <input type="text" placeholder="Password" id="password">
+        <button id="login">LOGIN</button>
+        <div class="div">
+            <p class="con1">Not A Member?<a href="./signup.html">Sign Up Now</a></p>
+            <p class="con1"><a href="">Forgot Password?</a></p>
+        </div>
+    </div>
+
+    <div id="line">
+        <p><a href="./blog.html">Blog</a></p>
+        <p><a href="./forums.html">Forums</a></p>
+        <p><a href="./privacy.html"> Privacy</a></p>
+        <p><a href="">Terms</a></p>
+        <p><a href="">Affiliates</a></p>
+        <p><a href="https://cronometer.com/jobs/">Jobs</a></p>
+    </div>
+
+
+
+    <footer>
+        <div id="foo1">
+              <div id="img">
+            <img src="https://cdn1.cronometer.com/logos/app-store.png" alt="" class="foimg">
+            <img src="https://cdn1.cronometer.com/logos/google-play.png" alt="" class="foimg">
+        </div>
+        <div id="img2">
+            <img src="https://cdn1.cronometer.com/logos/cronometer-logo-white.png" alt="" class="midimg">
+            <p class="copy">Copyright © 2011-2022, All Rights Reserved</p>
+
+        </div>
+        <div id="logo">
+            <a target="_blank" href="https://www.instagram.com/cronometer_official/?hl=en"><img
+                    src="https://cdn1.cronometer.com/2021/landing/social_instagram-icon.png" alt="instagram" class="logo"></a>
+            <a target="_blank" href="https://www.facebook.com/cronometer"><img
+                    src="https://cdn1.cronometer.com/2021/landing/social_facebook-icon.png" alt="facebook" class="logo"></a>
+            <a target="_blank" href="https://twitter.com/cronometer"><img
+                    src="https://cdn1.cronometer.com/2021/landing/social_twitter-icon.png" alt="twitter" class="logo"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCX4_3R4oVBU3Ff5Jmh1iJbw"><img
+                    src="https://cdn1.cronometer.com/2021/landing/social_youtube-icon.png" alt="youtube" class="logo"></a>
+        </div>
+        </div>
+        <div id="supdiv">
+
+        </div>
+          <button id="sup">Support?</button>
+    </footer>
+</body>
+</html>
+<script>
+    let support = document.querySelector("#supdiv");
+
+    document.querySelector("#sup").addEventListener("click",function(){
+        let div = document.createElement("div");
+        let p = document.createElement("p");
+        let input = document.createElement("input");
+        p.innerText = "Support"
+        // p.style.color = "white";
+        p.style.margin = "auto";
+        input.placeholder = "How Can We Help";
+        div.append(p,input);
+        support.append(div)
+
+    });
+       
+    let login = JSON.parse(localStorage.getItem("user"));
+let email = document.querySelector("#email").value;
+          let pass =  document.querySelector("#password").value;
+
+    document.querySelector("#login").addEventListener("click",function(){
+          
+          
+          let present = 1
+          login.forEach(function(elem){
+            if(email==elem.email && pass ==elem.password){
+                alert("Login Succsesful");
+                window.location.href = "index.html";
+            }
+            else{
+                alert("incorrect Email or Password");
+            }
+          });
+
+    })
+</script>
+
+  
