@@ -188,7 +188,7 @@
     <div id="container">
         <img src="https://cdn1.cronometer.com/logos/cronometer-logo-orange.png" alt="" class="img">
         <input type="text" placeholder="Email Address" id="email">
-        <input type="text" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" id="password">
         <button id="login">LOGIN</button>
         <div class="div">
             <p class="con1">Not A Member?<a href="./signup.html">Sign Up Now</a></p>
@@ -253,24 +253,52 @@
     });
        
     let login = JSON.parse(localStorage.getItem("user"));
-let email = document.querySelector("#email").value;
-          let pass =  document.querySelector("#password").value;
+
 
     document.querySelector("#login").addEventListener("click",function(){
           
           
-          let present = 1
-          login.forEach(function(elem){
-            if(email==elem.email && pass ==elem.password){
-                alert("Login Succsesful");
-                window.location.href = "index.html";
-            }
-            else{
-                alert("incorrect Email or Password");
-            }
-          });
+        //   let present = 1
+        //   login.forEach(function(elem){
+        //     if(email==elem.email && pass ==elem.password){
+        //         alert("Login Succsesful");
+        //         window.location.href = "index.html";
+        //     }
+        //     else{
+        //         alert("incorrect Email or Password");
+        //     }
+        //   });
+    
+
+        signingin(login)
+
+
+           
+        
+
 
     })
+
+    function signingin(login){
+        event.preventDefault();
+        if(login.length==0){
+            alert("No user till now")
+            return;
+        }
+        let email = document.querySelector("#email").value;
+          let pass =  document.querySelector("#password").value;
+          let flag=false;
+          login.forEach(function(el){
+            if(el.email==email && el.password==pass){
+                flag=true;
+                alert("Login Successful")
+                window.location.href="index.html"
+            }
+          })
+          if(flag==false){
+            alert("Fill right details")
+          }
+    }
 </script>
 
   
