@@ -8,7 +8,7 @@ class navbar {
             <ul class="navbar-list">
                 <li>
                     <div class="nav-product">
-                        <a href="./pro.html">Products</a>
+                        <a href="./pro.html">Pro</a>
                         <i class="fa-solid fa-angle-down"></i>
                     </div>
                 </li>
