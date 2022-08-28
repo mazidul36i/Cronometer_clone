@@ -32,7 +32,7 @@
     /* position: fixed; */
     /* background-color:      #ff763f; */
 }
-.navbar > div > img {
+.navbar img {
     width: 350px;
 }
 .navbar > div > a > button {

@@ -1,7 +1,7 @@
 class navbar {
     constructor() {
         this.nav = `<header id="navbar" class="collapse">
-        <a href="/">
+        <a href="./index.html">
             <img src="https://cdn1.cronometer.com/2021/landing/cronometer-logo.svg" alt="our main logo" class="logo">
         </a>
         <nav>
